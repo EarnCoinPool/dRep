@@ -1,0 +1,120 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "doNotList": "CIP119:doNotList",
+        "givenName": "CIP119:givenName",
+        "motivations": "CIP119:motivations",
+        "objectives": "CIP119:objectives",
+        "paymentAddress": "CIP119:paymentAddress",
+        "qualifications": "CIP119:qualifications",
+        "image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject"
+          }
+        },
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [
+    {
+      "witness": {
+        "publicKey": {
+          "@value": "a401010327200621582006ee79f760b136aaa70958baefa8595962a93b366a68735c541dc748d97567f9"
+        },
+        "signature": {
+          "@value": "845829a201276761646472657373581c0ec943dc5e7c2f308d39322a2d12c934fac5b2926e76c67e84b2c8d1a166686173686564f5581c2a97f615a5ab6f323c8b2d022d3e94dc6f34e1828ca9388c35b8c63b584014488a8ee53d7ad88fa960052f9f7e46ffbd5c7e43212ec68037c0b5decb1733101f1ad6c15b6c6584083d420108da2b2f56b03aebc383789d067916bcd7960b"
+        },
+        "witnessAlgorithm": {
+          "@value": "Ed25519"
+        }
+      }
+    }
+  ],
+  "hashAlgorithm": {
+    "@value": "blake2b-256"
+  },
+  "body": {
+    "doNotList": {
+      "@value": "false"
+    },
+    "givenName": {
+      "@value": "Earn Coin Pool"
+    },
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "https://ipfs.io/ipfs/QmPELqofHuBypkuW4sZeckZpUjoJVkszTEHDUdASUgxDT9",
+      "sha256": "4bc2d43ab0b6aba766fc0c7106fed67119e3b0c86bfc32ec567bd1967db54c8a"
+    },
+    "motivations": {
+      "@value": "Decentralization"
+    },
+    "objectives": {
+      "@value": "To push for more decentralization. Pushing power to the edges with governance and keeping Cardano decentralized goes hand in hand."
+    },
+    "paymentAddress": {
+      "@value": "addr1q9qx8sduep34zptwt4unmahpw24ykr28jaqv4ycxpg2su3skgqtad3gd34cug2ck7dpdwnmnqezp2tjjv3hw8nxsvrnsspwu55"
+    },
+    "qualifications": {
+      "@value": "Stake Pool Operator, xSPO Alliance administrator, PCP author, and community guide creator."
+    },
+    "references": [
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "Twitter/X"
+        },
+        "uri": {
+          "@value": "https://x.com/earncoinpool"
+        }
+      },
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "Website"
+        },
+        "uri": {
+          "@value": "https://earncoinpool.com/"
+        }
+      }
+    ]
+  }
+}
