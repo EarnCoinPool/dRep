@@ -7,6 +7,7 @@
     "body": {
       "@id": "CIP119:body",
       "@context": {
+        "bio": "CIP119:bio",
         "doNotList": "CIP119:doNotList",
         "givenName": "CIP119:givenName",
         "motivations": "CIP119:motivations",
@@ -73,6 +74,9 @@
     "@value": "blake2b-256"
   },
   "body": {
+    "bio": {
+      "@value": "Earn Coin Pool - Stake Pool Operator, xSPO Alliance administrator, PCP author, and community guide creator."
+    },
     "doNotList": {
       "@value": "false"
     },
