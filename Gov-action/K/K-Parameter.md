@@ -1,11 +1,11 @@
 
-## Governance Action Type:
+### Governance Action Type:
 Parameters
 
-## Title:
+### Title:
 Increase K from 500 to 1,000
 
-## Abstract:
+### Abstract:
 This parameter governance action seeks to increase the K parameter from 500 to 1,000 to increase decentralization, improve the economic stability of more stake pools by encouraging ada holders to delegate to a wider number of pools.
 
 
@@ -21,13 +21,13 @@ This parameter governance action seeks to increase the K parameter from 500 to 1
 
 ## Expected impact
 
-## Economic impact
+### Economic impact
 Ensure that stake pools are adequately rewarded for maintaining the Cardano Blockchain (Appendix I, Section 2.2: #2) Number and health of stake pools (Appendix I, Section 2.2: Core Metrics)
 
-## Reversion/Recovery Plan
+### Reversion/Recovery Plan
 A reversion/recovery plan should not be necessary as the K parameters have been changed in the past and the effects are known. However in case of a disaster recovery the K parameter would be can/would be set back to 500. No other actions would need to be taken to restore network.
 
-## References and Supporting Information
+### References and Supporting Information
 
 K- PCP submitted by Earn Coin Pool 
 https://forum.cardano.org/t/pcp-k-parameter-earncoinpool/122701
