@@ -46,8 +46,9 @@ Sets the target number of stake pools
 * Large changes in this parameter will trigger mass redelegation events
  
 [**2.6. Monitoring and Reversion of Parameter Changes**](https://github.com/IntersectMBO/cardano-constitution/blob/main/cardano-constitution-1/cardano-constitution-1.txt.md#26-monitoring-and-reversion-of-parameter-changes)  
-All network parameter changes **must** be monitored carefully for no less than 2 epochs (10 days)  
-* Changes must be reverted as soon as possible if block propagation delays exceed 4.5s for more than 5% of blocks over any 6 hour rolling window<br>
+
+All network parameter changes **must be** monitored carefully for no less than 2 epochs (10 days)  
+* Changes **must** be reverted as soon as possible if block propagation delays exceed 4.5s for more than 5% of blocks over any 6 hour rolling window<br>
 
 All other parameter changes should be monitored  
 * The reversion plan **should** be implemented if the overall effect on performance, security, functionality or long-term sustainability is unacceptable.<br>
@@ -68,10 +69,10 @@ Sets the target number of stake pools
 * Large changes in this parameter will trigger mass redelegation events
 
 **GUARDRAILS**  
-SPTN-01 (y) stakePoolTargetNum must not be lower than 250  
-SPTN-02 (y) stakePoolTargetNum must not exceed 2,000  
-SPTN-03 (y) stakePoolTargetNum must not be negative  
-SPTN-04 (y) stakePoolTargetNum must not be zero  
+SPTN-01 (y) stakePoolTargetNum **must not** be lower than 250  
+SPTN-02 (y) stakePoolTargetNum **must not** exceed 2,000  
+SPTN-03 (y) stakePoolTargetNum **must not** be negative  
+SPTN-04 (y) stakePoolTargetNum **must not** be zero  
  
 [9. List of Protocol Parameter Groups](https://github.com/IntersectMBO/cardano-constitution/blob/main/cardano-constitution-1/cardano-constitution-1.txt.md#9-list-of-protocol-parameter-groups)
 
