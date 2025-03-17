@@ -1,17 +1,18 @@
-Section 5
-Section 5
-In order to promote transparency in the process of on-chain governance, prior to being recorded or enacted on-chain, all proposed governance actions are expected to follow a standardized and legible format including a URL and hash of all documented off-chain content to the Cardano Blockchain. Sufficient rationale shall be provided to justify the requested change to the Cardano Blockchain. The rationale shall include, at a minimum, a title, abstract, reason for the proposal, and relevant supporting materials.
-The content of every on-chain governance action must be identical to the final off-chain version of the proposed action.
-"Hard Fork Initiation" and "Protocol Parameter Change" governance actions shall undergo sufficient technical review and scrutiny as mandated by the Guardrails to ensure that the governance action does not endanger the security, functionality, performance or long-term sustainability of the Cardano Blockchain. On-chain governance actions should address their expected impact on the Cardano Blockchain ecosystem.
-All owners of ada shall have the right to ensure that the process for participating in, submitting and voting on on-chain governance actions is open and transparent and is protected from undue influence and manipulation.
+[Section 5](https://github.com/IntersectMBO/cardano-constitution/blob/main/cardano-constitution-1/cardano-constitution-1.txt.md#section-5)
+
+<p>In order to promote transparency in the process of on-chain governance, prior to being recorded or enacted on-chain, all proposed governance actions are expected to follow a standardized and legible format including a URL and hash of all documented off-chain content to the Cardano Blockchain. Sufficient rationale shall be provided to justify the requested change to the Cardano Blockchain. The rationale shall include, at a minimum, a title, abstract, reason for the proposal, and relevant supporting materials.</p>
+<p>The content of every on-chain governance action must be identical to the final off-chain version of the proposed action.</p>
+<p>"Hard Fork Initiation" and "Protocol Parameter Change" governance actions shall undergo sufficient technical review and scrutiny as mandated by the Guardrails to ensure that the governance action does not endanger the security, functionality, performance or long-term sustainability of the Cardano Blockchain. On-chain governance actions should address their expected impact on the Cardano Blockchain ecosystem.</p>
+<p>All owners of ada shall have the right to ensure that the process for participating in, submitting and voting on on-chain governance actions is open and transparent and is protected from undue influence and manipulation.</p>
  
-2.2 Economic Parameters
-2.2. Economic Parameters
+
+[2.2. Economic Parameters](https://github.com/IntersectMBO/cardano-constitution/blob/main/cardano-constitution-1/cardano-constitution-1.txt.md#22-economic-parameters)
+
 The overall goals when managing economic parameters are to:
-Enable long-term economic sustainability for the Cardano Blockchain;
-Ensure that stake pools are adequately rewarded for maintaining the Cardano Blockchain;
-Ensure that ada owners are adequately rewarded for using stake in constructive ways, including when delegating ada for block production; and
-Balance economic incentives for different Cardano Blockchain ecosystem stakeholders, including but not limited to Stake Pool Operators, ada owners, DeFi users, infrastructure users, developers (e.g. DApps) and financial intermediaries (e.g. exchanges)
+1. Enable long-term economic sustainability for the Cardano Blockchain;
+2. Ensure that stake pools are adequately rewarded for maintaining the Cardano Blockchain;
+3. Ensure that ada owners are adequately rewarded for using stake in constructive ways, including when delegating ada for block production; and
+4. Balance economic incentives for different Cardano Blockchain ecosystem stakeholders, including but not limited to Stake Pool Operators, ada owners, DeFi users, infrastructure users, developers (e.g. DApps) and financial intermediaries (e.g. exchanges)
  
 
 [2.4. Technical/Security Parameters](https://github.com/IntersectMBO/cardano-constitution/blob/main/cardano-constitution-1/cardano-constitution-1.txt.md#24-technicalsecurity-parameters)
