@@ -13,23 +13,31 @@ Ensure that stake pools are adequately rewarded for maintaining the Cardano Bloc
 Ensure that ada owners are adequately rewarded for using stake in constructive ways, including when delegating ada for block production; and
 Balance economic incentives for different Cardano Blockchain ecosystem stakeholders, including but not limited to Stake Pool Operators, ada owners, DeFi users, infrastructure users, developers (e.g. DApps) and financial intermediaries (e.g. exchanges)
  
-2.4 Technical/Security Parameters
-2.4. Technical/Security Parameters
+
+[2.4. Technical/Security Parameters](https://github.com/IntersectMBO/cardano-constitution/blob/main/cardano-constitution-1/cardano-constitution-1.txt.md#24-technicalsecurity-parameters)
+
 The overall goals when managing the technical/security parameters are:
-Ensure the security of the Cardano Blockchain network in terms of decentralization and protection against adversarial actions
-Enable changes to the Plutus language
-Triggers for Change
-Changes in the number of active SPOs
-Changes to the Plutus language
-Security threats
-Cardano Community requests
-Counter-indicators
-Economic concerns, e.g. when changing the number of stake pools
-Core Metrics
-Number of stake pools
-Level of decentralization
-Changes to Specific Technical/Security Parameters
-Target Number of Stake Pools (stakePoolTargetNum)  
+1. Ensure the security of the Cardano Blockchain network in terms of decentralization and protection against adversarial actions
+2. Enable changes to the Plutus language
+
+**Triggers for Change**
+1. Changes in the number of active SPOs
+2. Changes to the Plutus language
+3. Security threats
+4. Cardano Community requests
+
+**Counter-indicators**
+* Economic concerns, e.g. when changing the number of stake pools
+
+**Core Metrics**
+* Number of stake pools
+* Level of decentralization
+
+<p> 
+ <strong>Changes to Specific Technical/Security Parameters</strong> 
+</p>
+
+**Target Number of Stake Pools (stakePoolTargetNum)**<br>
 Sets the target number of stake pools  
 * The expected number of stake pools when the network is in the equilibrium state
 * Primarily a security parameter, ensuring decentralization by stake pool division/replication
