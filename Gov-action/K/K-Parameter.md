@@ -3,11 +3,12 @@
 Parameters
 
 ### Title:
-Increase K from 500 to 1,000
+Increase K (stakePoolTargetNum) from 500 to 1,000
 
 ### Abstract:
-This parameter governance action seeks to increase the K parameter from 500 to 1,000 to increase decentralization, improve the economic stability of more stake pools by encouraging ada holders to delegate to a wider number of pools.
+This parameter governance action seeks to increase the K parameter (stakePoolTargetNum) from 500 to 1,000 to increase decentralization, improve the economic stability of more stake pools by encouraging ada holders to delegate to a wider number of pools.
 
+**NOTE:** The Constitution refers to the K parameter as stakePoolTargetNum, they are synonymous for each other. Since all the research, PCPs and past documentation refers to it as K we will use the term K parameter from here on out, but K is interchangeable with term stakePoolTargetNum parameter.
 
 ## Motivation
 
@@ -25,7 +26,7 @@ This parameter governance action seeks to increase the K parameter from 500 to 1
 Ensure that stake pools are adequately rewarded for maintaining the Cardano Blockchain (Appendix I, Section 2.2: #2) Number and health of stake pools (Appendix I, Section 2.2: Core Metrics)
 
 ### Reversion/Recovery Plan
-A reversion/recovery plan should not be necessary as the K parameters have been changed in the past and the effects are known. However in case of a disaster recovery the K parameter would be can/would be set back to 500. No other actions would need to be taken to restore network.
+A reversion/recovery plan should not be necessary as the K parameters have been changed in the past and the effects are known. However in case of a disaster recovery the K parameter would be can/would be set back to 500. No other actions would need to be taken to restore network. Under Appendix I, Section 1 there are 3 Severity Levels classified. The 
 
 ### References and Supporting Information
 
