@@ -48,7 +48,7 @@ https://roadmap.cardano.org/en/shelley/
 https://iohk.io/en/blog/posts/2020/11/05/parameters-and-decentralization-the-way-ahead/
 
 * Cardano Foundation on K
-https://medium.com/cardanorss/cardano-foundation-to-adjust-its-delegation-methodology-following-changes-to-the-k-parameter-7636ffb8e82#:~:text=The%20k-parameter%20determines%20the%20stake%20pool%20saturation%20point%2C,to%20delegate%20to%20a%20wider%20number%20of%20pools.
+https://medium.com/cardanorss/cardano-foundation-to-adjust-its-delegation-methodology-following-changes-to-the-k-parameter-7636ffb8e82
 
 * Results of moving K to 500 “Overall, it has proven successful” - IOHK
 https://iohk.io/en/blog/posts/2021/03/04/not-long-till-d-0-day/
