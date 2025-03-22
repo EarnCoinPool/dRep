@@ -44,6 +44,9 @@ https://forum.cardano.org/t/pcp-k-parameter-earncoinpool/122701/98
 * Shelley Roadmap
 https://roadmap.cardano.org/en/shelley/
 
+* Parameters and decentralization: the way ahead - we'll be making adjustments to the k-parameter in Cardano. Here’s why On December 6 - IOHK
+https://iohk.io/en/blog/posts/2020/11/05/parameters-and-decentralization-the-way-ahead/
+
 * Cardano Foundation on K
 https://medium.com/cardanorss/cardano-foundation-to-adjust-its-delegation-methodology-following-changes-to-the-k-parameter-7636ffb8e82#:~:text=The%20k-parameter%20determines%20the%20stake%20pool%20saturation%20point%2C,to%20delegate%20to%20a%20wider%20number%20of%20pools.
 
