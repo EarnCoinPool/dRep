@@ -11,13 +11,14 @@ This parameter governance action seeks to increase the K parameter (stakePoolTar
 **NOTE:** The Constitution refers to the K parameter as stakePoolTargetNum, they are synonymous for each other. Since all the research, PCPs and past documentation refers to it as K we will use the term K parameter from here on out, but K is interchangeable with term stakePoolTargetNum parameter.
 
 ### Motivation 
+K id'd as decentralization parameter. Recent analysis shows minimum attack vector slowly decreasing and large pools minting majority of the blocks while 44% minted 10 or less blocks. The most current research shows it's safe to move to K=1,000 and the it would lead to just about doubling our Nakamoto coefficient. 
+
+### Rationale
 The Shelley/Decentralization phase of the roadmap included K being set to 1,000 stake pools.[^1] It was announced that K would be increased in March 2021 to 1,000[^2] However due Alonzo hard fork and the deployment of the full Goguen smart contract this was delayed.[^3] 
 
 [^1]: "Come the end of the Shelley era, we expect Cardano to be 50-100 times more decentralized than other large blockchain networks, with the incentives scheme designed to reach equilibrium around 1,000 stake pools." [https://roadmap.cardano.org/en/shelley/](https://roadmap.cardano.org/en/shelley/)
 [^2]: "Modeling the long-term viability of stake pools, we found that k values of 1,000 were stable in the long term. As a result, our aim is to move to k=1,000 during March 2021." [https://iohk.io/en/blog/posts/2020/11/05/parameters-and-decentralization-the-way-ahead/](https://iohk.io/en/blog/posts/2020/11/05/parameters-and-decentralization-the-way-ahead/)
 [^3]: "K will not change in Q3. Our focus is on a successful Alonzo hard fork and the deployment of the full Goguen smart contract capability. We have also clearly stated elements like multi-pool delegation get put in place as we reopen the consultation on K and other parameters."[https://x.com/timbharrison/status/1399657898364518401](https://x.com/timbharrison/status/1399657898364518401)
-
-## Rationale
 
 ## Precedent: K was already increased to 500
 
