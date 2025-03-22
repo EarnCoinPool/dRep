@@ -10,7 +10,12 @@ This parameter governance action seeks to increase the K parameter (stakePoolTar
 
 **NOTE:** The Constitution refers to the K parameter as stakePoolTargetNum, they are synonymous for each other. Since all the research, PCPs and past documentation refers to it as K we will use the term K parameter from here on out, but K is interchangeable with term stakePoolTargetNum parameter.
 
-## Motivation
+### Motivation 
+The Shelley/Decentralization phase of the roadmap included K being set to 1,000 stake pools.[^1] It was announced that K would be increased in March 2021 to 1,000[^2] However due Alonzo hard fork and the deployment of the full Goguen smart contract this was delayed.[^3] 
+
+[^1]: "Come the end of the Shelley era, we expect Cardano to be 50-100 times more decentralized than other large blockchain networks, with the incentives scheme designed to reach equilibrium around 1,000 stake pools." [https://roadmap.cardano.org/en/shelley/](https://roadmap.cardano.org/en/shelley/)
+[^2]: "Modeling the long-term viability of stake pools, we found that k values of 1,000 were stable in the long term. As a result, our aim is to move to k=1,000 during March 2021." [https://iohk.io/en/blog/posts/2020/11/05/parameters-and-decentralization-the-way-ahead/](https://iohk.io/en/blog/posts/2020/11/05/parameters-and-decentralization-the-way-ahead/)
+[^3]: "K will not change in Q3. Our focus is on a successful Alonzo hard fork and the deployment of the full Goguen smart contract capability. We have also clearly stated elements like multi-pool delegation get put in place as we reopen the consultation on K and other parameters."[https://x.com/timbharrison/status/1399657898364518401](https://x.com/timbharrison/status/1399657898364518401)
 
 ## Rationale
 
@@ -30,18 +35,21 @@ A reversion/recovery plan should not be necessary as the K parameters have been 
 
 ### References and Supporting Information
 
-1. K- PCP submitted by Earn Coin Pool 
+* K- PCP submitted by Earn Coin Pool 
 https://forum.cardano.org/t/pcp-k-parameter-earncoinpool/122701
 
-2. Position to Resubmit the K-PCP by Earn Coin Pool
+* Position to Resubmit the K-PCP by Earn Coin Pool
 https://forum.cardano.org/t/pcp-k-parameter-earncoinpool/122701/98
 
-3. Cardano Foundation on K
+* Shelley Roadmap
+https://roadmap.cardano.org/en/shelley/
+
+* Cardano Foundation on K
 https://medium.com/cardanorss/cardano-foundation-to-adjust-its-delegation-methodology-following-changes-to-the-k-parameter-7636ffb8e82#:~:text=The%20k-parameter%20determines%20the%20stake%20pool%20saturation%20point%2C,to%20delegate%20to%20a%20wider%20number%20of%20pools.
 
-4. Results of moving K to 500 “Overall, it has proven successful” - IOHK
+* Results of moving K to 500 “Overall, it has proven successful” - IOHK
 https://iohk.io/en/blog/posts/2021/03/04/not-long-till-d-0-day/
 
-5. Last K study - IOHK - by Christina Ovezik & Aggelos Kiayias Posted 19 April, 2022
+* Last K study - IOHK - by Christina Ovezik & Aggelos Kiayias Posted 19 April, 2022
 https://blogs.ed.ac.uk/blockchain/2022/04/19/pool-splitting-behaviour-and-equilibrium-properties-in-cardano-rewards-scheme/
 
