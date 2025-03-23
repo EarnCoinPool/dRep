@@ -11,7 +11,7 @@ This parameter governance action seeks to increase the K parameter (stakePoolTar
 **NOTE:** The Constitution refers to the K parameter as stakePoolTargetNum, they are synonymous for each other. Since all the research, PCPs and past documentation refers to the parameter as K we will use the term K parameter from here on out, but K is interchangeable with term stakePoolTargetNum parameter.
 
 ### Motivation 
-Recent analysis shows minimum attack vector slowly decreasing and large pools minting majority of the blocks while 44% minted 10 or less blocks. The most current research shows it's safe to move to K=1,000 and the it would lead to just about doubling our Nakamoto coefficient. 
+Recent analysis shows minimum attack vector slowly decreasing and large pools minting majority of the blocks while 44% minted 10 or less blocks. The most current research shows it's safe to move to K=1,000 and by moving K to 1,000 it would lead to just about doubling our Nakamoto coefficient. 
 
 
 
@@ -22,17 +22,17 @@ The K parameter is ID’d as the parameter central to decentralization and as su
 [^2]: "The system thereby incentivizes delegators to move their stake to a pool containing less ada, in order to maintain their yield and thus encourages the decentralization of the network." [https://iohk.io/en/blog/posts/2022/10/27/staking-parameters-and-network-optimization-where-next-for-k-and-min-fee/](https://iohk.io/en/blog/posts/2022/10/27/staking-parameters-and-network-optimization-where-next-for-k-and-min-fee/)
 
 #### What is K and how does it work?
-The K parameter creates a soft cap on the total stake in a pool that would recieve optimal rewards.This number is often refered to as the saturation level. The cap or saturation level changes over time and is defined as a percentage of the maximum supply of ada (45bn) minus any amount that remains in the reserve (as of epoch 547, Reserve: 7,311,783,103) so that would equal 37,688,216,897 ada.
+The K parameter creates a soft cap on the total stake in a pool that would receive optimal rewards. This number is often referred to as the saturation level. The cap or saturation level changes over time and is defined as a percentage of the maximum supply of ada (45bn) minus any amount that remains in the reserve (as of epoch 547, Reserve: 7,311,783,103) so that would equal 37,688,216,897 ada.
 
 The current saturation level:
-Maximum pool size = (45bn -  7,311,783,103 in reserves) / k = (37,688,216,897 / 500 ) = 75,376,433.794
+Maximum pool size = (45bn - 7,311,783,103 in reserves) / k = (37,688,216,897 / 500 ) = 75,376,433.794
 
-For readabilty we will use approximate amounts, so approximately: 
-Maximum pool size = (45bn -  7bn in reserves) / k = (38bn / 500 ) = 76 million
+For readability we will use approximate amounts, so approximately: 
+Maximum pool size = (45bn - 7bn in reserves) / k = (38bn / 500 ) = 76 million
 
 "Within the Cardano documentation, a pool that reaches its maximum size is said to be saturated. A saturated pool offers the highest rewards to delegators and is most lucrative for its operators, while an over-saturated pool delivers lower rewards. The system thereby incentivizes delegators to move their stake to a pool containing less ada, in order to maintain their yield and thus encourages the decentralization of the network."[^2]
 
-Adjusting K parameter to 1,000 would set the the saturation level to the following approximate level:
+Adjusting K parameter to 1,000 would set the saturation level to the following approximate level:
 Maximum pool size = (45bn -  7bn in reserves) / k = (38bn / 1000 ) = 38 million 
 
 #### History of Announcements and Steps to get K Parameter Increased to 1,000
