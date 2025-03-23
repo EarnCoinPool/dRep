@@ -33,7 +33,8 @@ For readability we will use approximate amounts, so approximately:
 "Within the Cardano documentation, a pool that reaches its maximum size is said to be saturated. A saturated pool offers the highest rewards to delegators and is most lucrative for its operators, while an over-saturated pool delivers lower rewards. The system thereby incentivizes delegators to move their stake to a pool containing less ada, in order to maintain their yield and thus encourages the decentralization of the network."[^2]
 
 Adjusting K parameter to 1,000 would set the saturation level to the following approximate level:  
-**Maximum pool size = (45bn -  7bn in reserves) / k = (38bn / 1000 ) = 38 million**
+**Maximum pool size = (45bn -  7bn in reserves) / k = (38bn / 1000 ) = 38 million**  
+
 Hence this move as stated above by IOHK will incentivize delegators to move their stake to a stake pool containing less ada, so they can maintain their rewards, thus encouragine wider decentralization of the Cardano network.[^2]
 
 #### History of Announcements and Steps to get K Parameter Increased to 1,000
