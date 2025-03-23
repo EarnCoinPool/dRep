@@ -24,16 +24,17 @@ The K parameter is ID’d as the parameter central to decentralization and as su
 #### What is K and how does it work?
 The K parameter creates a soft cap on the total stake in a pool that would receive optimal rewards. This number is often referred to as the saturation level. The cap or saturation level changes over time and is defined as a percentage of the maximum supply of ada (45bn) minus any amount that remains in the reserve (as of epoch 547, Reserve: 7,311,783,103) so that would equal 37,688,216,897 ada.
 
-The current saturation level:
-Maximum pool size = (45bn - 7,311,783,103 in reserves) / k = (37,688,216,897 / 500 ) = 75,376,433.794
+The current saturation level:  
+Maximum pool size = (45bn - 7,311,783,103 in reserves) / k = (37,688,216,897 / 500 ) = 75,376,433.794  
 
-For readability we will use approximate amounts, so approximately: 
-Maximum pool size = (45bn - 7bn in reserves) / k = (38bn / 500 ) = 76 million
+For readability we will use approximate amounts, so approximately:  
+**Maximum pool size = (45bn - 7bn in reserves) / k = (38bn / 500 ) = 76 million**
 
 "Within the Cardano documentation, a pool that reaches its maximum size is said to be saturated. A saturated pool offers the highest rewards to delegators and is most lucrative for its operators, while an over-saturated pool delivers lower rewards. The system thereby incentivizes delegators to move their stake to a pool containing less ada, in order to maintain their yield and thus encourages the decentralization of the network."[^2]
 
-Adjusting K parameter to 1,000 would set the saturation level to the following approximate level:
-Maximum pool size = (45bn -  7bn in reserves) / k = (38bn / 1000 ) = 38 million 
+Adjusting K parameter to 1,000 would set the saturation level to the following approximate level:  
+**Maximum pool size = (45bn -  7bn in reserves) / k = (38bn / 1000 ) = 38 million**
+Hence this move as stated above by IOHK will incentivize delegators to move their stake to a stake pool containing less ada, so they can maintain their rewards, thus encouragine wider decentralization of the Cardano network.[^2]
 
 #### History of Announcements and Steps to get K Parameter Increased to 1,000
 The Shelley/Decentralization phase of the roadmap included K being set to 1,000 stake pools.[^3] It was announced that K would be increased in March 2021 to 1,000[^4] However due Alonzo hard fork and the deployment of the full Goguen smart contract this was delayed.[^5] 
