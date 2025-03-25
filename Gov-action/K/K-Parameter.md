@@ -55,6 +55,16 @@ The Shelley/Decentralization phase of the roadmap included K being set to 1,000 
 ### Economic impact
 Ensure that stake pools are adequately rewarded for maintaining the Cardano Blockchain (Appendix I, Section 2.2: #2) Number and health of stake pools (Appendix I, Section 2.2: Core Metrics)
 
+### Product Committee 2025 Roadmap Supporting Changes
+
+The Product Committee 2025 roadmap includes: 
+* Introduce min-margin parameter that can be voted on via governance to modify[^6]
+* Modify pledge-benefit curve for a0[^6]
+
+The 2025 roadmap includes two items that many believe with further help a change to K be more effective. Replacing min pool fee with a min margin and a0 adjustments, making pledge move effective. These two changes could further lead to better than the project results of doubling our Nakamoto coefficient.
+
+[^6]: Product Committee: 2025 Proposed Cardano Roadmap [https://productcommittee.docs.intersectmbo.org/committee-outcomes/2025-cardanos-roadmap/2025-proposed-cardano-roadmap](https://productcommittee.docs.intersectmbo.org/committee-outcomes/2025-cardanos-roadmap/2025-proposed-cardano-roadmap)
+
 ### Reversion/Recovery Plan
 A reversion/recovery plan should not be necessary as the K parameters have been changed in the past and the effects are known. However, in case of a disaster recovery the K parameter can/would be set back to 500 if a reverting change was necessary due to either a Severity 1 or Severity 2 incident or issue. If a Severity 3 incident or issue the K parameter can/would be set back to 750 for further monitoring. If at K at 750 and the Severity increased to the 1 or 2 level, the K parameter would be set back to 500. No other actions would need to be taken to restore the network. Under Appendix I, Section 1 there are 3 Severity Levels classified; Severity 1 is a critical incident or issue, Severity 2 is a major incident or issue, and Severity 3 is a minor incident or issue.
 
