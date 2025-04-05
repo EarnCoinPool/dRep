@@ -63,6 +63,21 @@ Adjusting K parameter to 1,000 would set the saturation level to the following a
 
 The move to K=1,000 with a saturation level around 38 million ada will, as stated above by IOHK will incentivize delegators to move their stake to a stake pool containing less ada, so they can maintain their rewards, thus encouraging wider decentralization of the Cardano network.[^3]
 
+#### Is it safe to move K to 1,000 and why moving in one big move is recommended by IOG Scientist
+IOG has stated:
+
+"It is worth noting that the k-parameter is not amenable to small, gradual increases."[^5] and "Therefore, the best strategy for an upwards adjustment of k is to move in larger, less frequent increments – and to move it as far and as fast as practical network dynamics and economics will allow."[^5]
+
+The last time K was adjusted it went from 150 to 500 and then the recommendation from IOG was to go to 1,000. The current research looked at 750 vs 1,000 and showed 1,000 would be most effective with a projection of almost doubling our Nakamoto coefficient.[^4]
+
+IOG research has said it is safe to increase K to 1,000 on several post indicating that it's safe both for the security and economics. 
+
+From IOG:
+
+"Modeling the long-term viability of stake pools, we found that k values of 1,000 were stable in the long term. As a result, our aim is to move to k=1,000 during March 2021. We recognize the importance of economic factors that also strongly influence pool profitability and will continue to consult widely with the community on the plan; the social dynamics of the network should also not be underestimated."[^5] and "Previously, IOG had suggested that this value could be safely raised to 1,000"[^3]
+
+
+
 #### History of Announcements and Steps to get K Parameter Increased to 1,000
 The Shelley/Decentralization phase of the roadmap included K being set to 1,000 stake pools.[^6] It was announced that K would be increased in March 2021 to 1,000[^7] However due Alonzo hard fork and the deployment of the full Goguen smart contract this was delayed.[^8] 
 
