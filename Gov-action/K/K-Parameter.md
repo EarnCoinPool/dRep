@@ -89,9 +89,13 @@ The Shelley/Decentralization phase of the roadmap included K being set to 1,000 
 
 ## Constitutional Alignment
 
-## Technical review
+### Technical Review / Expected Impact
+"From IOG’s calculations, there are about 100 public pools that would be affected by a move to k=1,000, representing around 2bn ada that would need to be redelegated (8% of the supply)."[^3] It also important to note that exchanges like Binance have already setup their pools to be below the K=1,000 saturation cap.[^9] indicating they are willing and ready for K=1,000.
 
-## Expected impact
+The most recent technical review done in April 2022 by Christina Ovezik & Aggelos Kiayias which  took in to account pool splitting and "emulate the current Cardano stakeholder distribution, using a combination of real data points (taken from ADApools and PoolTool) and synthetic points that we draw from a Pareto distribution"[^4] found that: "As expected, the values of the Nakamoto coefficient diverge more from the ideal ones, but the increase in k still helps to achieve a higher degree of decentralisation."[^4] and "Note that the final number of pools was also lower than k in these observations, which can be attributed to the decrease in the system’s active stake."[^4] This research showed adjusting "...k can drive the system towards a more decentralised state, as measured by its Nakamoto coefficient."[^4] It also compared K=750 vs K=1,000 with the current conditions including pool splitting and demonstrated the K=1,000 almost would double our Nakamoto coefficient while K=750 would have minimal impact. This again confirms earlier research that moving K as far and as fast as possible is best method for adjusting K.
+
+[^9]: [https://pool.pm/search/bnp](https://pool.pm/search/bnp)
+
 
 ### Economic impact
 Ensure that stake pools are adequately rewarded for maintaining the Cardano Blockchain (Appendix I, Section 2.2: #2) Number and health of stake pools (Appendix I, Section 2.2: Core Metrics)
@@ -99,12 +103,12 @@ Ensure that stake pools are adequately rewarded for maintaining the Cardano Bloc
 ### Product Committee 2025 Roadmap Supporting Changes
 
 The Product Committee 2025 roadmap includes: 
-* Introduce min-margin parameter that can be voted on via governance to modify[^8]
-* Modify pledge-benefit curve for a0[^9]
+* Introduce min-margin parameter that can be voted on via governance to modify[^10]
+* Modify pledge-benefit curve for a0[^10]
 
 The 2025 roadmap includes two items that many believe with further help a change to K be more effective. Replacing min pool fee with a min margin and a0 adjustments, making pledge move effective. These two changes could further lead to better than the project results of doubling our Nakamoto coefficient.
 
-[^9]: Product Committee: 2025 Proposed Cardano Roadmap [https://productcommittee.docs.intersectmbo.org/committee-outcomes/2025-cardanos-roadmap/2025-proposed-cardano-roadmap](https://productcommittee.docs.intersectmbo.org/committee-outcomes/2025-cardanos-roadmap/2025-proposed-cardano-roadmap)
+[^10]: Product Committee: 2025 Proposed Cardano Roadmap [https://productcommittee.docs.intersectmbo.org/committee-outcomes/2025-cardanos-roadmap/2025-proposed-cardano-roadmap](https://productcommittee.docs.intersectmbo.org/committee-outcomes/2025-cardanos-roadmap/2025-proposed-cardano-roadmap)
 
 ### Reversion/Recovery Plan
 A reversion/recovery plan should not be necessary as the K parameters have been changed in the past and the effects are known. However, in case of a disaster recovery the K parameter can/would be set back to 500 if a reverting change was necessary due to either a Severity 1 or Severity 2 incident or issue. If a Severity 3 incident or issue the K parameter can/would be set back to 750 for further monitoring. If at K at 750 and the Severity increased to the 1 or 2 level, the K parameter would be set back to 500. No other actions would need to be taken to restore the network. Under Appendix I, Section 1 there are 3 Severity Levels classified; Severity 1 is a critical incident or issue, Severity 2 is a major incident or issue, and Severity 3 is a minor incident or issue.
