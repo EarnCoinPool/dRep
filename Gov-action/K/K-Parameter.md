@@ -54,12 +54,12 @@ The current saturation level:
 Maximum pool size = (45bn - 7,311,783,103 in reserves) / k = (37,688,216,897 / 500 ) = 75,376,433.794  
 
 For readability we will use approximate amounts, so approximately:  
-**Maximum pool size = (45bn - 7bn in reserves) / k = (38bn / 500 ) = 76 million**
+***Maximum pool size = (45bn - 7bn in reserves) / k = (38bn / 500 ) = 76 million***
 
 "Within the Cardano documentation, a pool that reaches its maximum size is said to be saturated. A saturated pool offers the highest rewards to delegators and is most lucrative for its operators, while an over-saturated pool delivers lower rewards. The system thereby incentivizes delegators to move their stake to a pool containing less ada, in order to maintain their yield and thus encourages the decentralization of the network."[^5]
 
 Adjusting K parameter to 1,000 would set the saturation level to the following approximate level:  
-**Maximum pool size = (45bn -  7bn in reserves) / k = (38bn / 1000 ) = 38 million**  
+***Maximum pool size = (45bn -  7bn in reserves) / k = (38bn / 1000 ) = 38 million***  
 
 The move to K=1,000 with a saturation level around 38 million ada will, as stated above by IOHK will incentivize delegators to move their stake to a stake pool containing less ada, so they can maintain their rewards, thus encouraging wider decentralization of the Cardano network.[^5]
 
