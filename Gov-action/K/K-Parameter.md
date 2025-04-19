@@ -100,7 +100,20 @@ Now it's up to the community to submit a parameter governance proposal.
 
 ## Precedent: K was already increased to 500
 
-## Constitutional Alignment
+### Constitutional Alignment
+The Constitution states that: Target Number of Stake Pools (stakePoolTargetNum) is "Primarily a security parameter, ensuring decentralization by stake pool division/replication"[^17] 
+
+The guardrails for Target Number of Stake Pools (stakePoolTargetNum) states that it must not be lower than 250 and must not exceed 2,000 and must not be negative or zero.(Appendix I, Section 2.4)[^18] Setting Target Number of Stake Pools (stakePoolTargetNum) to 1,000 aligns with the Constitution.
+
+The Constitution also states that K or Target Number of Stake Pools (stakePoolTargetNum) has an economic effect as well as a security effect.
+
+According to the Cardano Constitution one of the overall goals of Economic parameters is to: "Ensure that stake pools are adequately rewarded for maintaining the Cardano Blockchain"[^13] (Appendix I, Section 2.2: #2) According to the Constitution one Core Metric for Economic Parameters is the "Number and health of stake pools"[^14] (Appendix I, Section 2.2: Core Metrics)
+
+Increasing K or Target Number of Stake Pools (stakePoolTargetNum) would align and satisfy both, the goal and the Core Metric.
+
+[^17]: "Primarily a security parameter, ensuring decentralization by stake pool division/replication" [https://github.com/IntersectMBO/cardano-constitution/blob/main/cardano-constitution-1/cardano-constitution-1.txt.md#target-number-of-stake-pools-stakepooltargetnum](https://github.com/IntersectMBO/cardano-constitution/blob/main/cardano-constitution-1/cardano-constitution-1.txt.md#target-number-of-stake-pools-stakepooltargetnum)
+
+[^18]: Appendix I, 2.4. Technical/Security Parameters [https://github.com/IntersectMBO/cardano-constitution/blob/main/cardano-constitution-1/cardano-constitution-1.txt.md#24-technicalsecurity-parameters](https://github.com/IntersectMBO/cardano-constitution/blob/main/cardano-constitution-1/cardano-constitution-1.txt.md#24-technicalsecurity-parameters)
 
 ### Technical Review / Expected Impact
 "From IOG’s calculations, there are about 100 public pools that would be affected by a move to k=1,000, representing around 2bn ada that would need to be redelegated (8% of the supply)."[^3] It also important to note that exchanges like Binance have already setup their pools to be below the K=1,000 saturation cap.[^10] indicating they are willing and ready for K=1,000.
