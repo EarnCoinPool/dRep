@@ -111,7 +111,11 @@ The most recent technical review done in April 2022 by Christina Ovezik & Aggelo
 
 
 ### Economic impact
-Ensure that stake pools are adequately rewarded for maintaining the Cardano Blockchain (Appendix I, Section 2.2: #2) Number and health of stake pools (Appendix I, Section 2.2: Core Metrics)
+According to the Cardano Consitiution one of the overall goals of Economic parameters is to: "Ensure that stake pools are adequately rewarded for maintaining the Cardano Blockchain"[^13] (Appendix I, Section 2.2: #2) According to the Consitution one Core Metric for Econmic Parameters is the "Number and health of stake pools"[^14] (Appendix I, Section 2.2: Core Metrics)
+
+[^13]: "Ensure that stake pools are adequately rewarded for maintaining the Cardano Blockchain" [https://github.com/IntersectMBO/cardano-constitution/blob/main/cardano-constitution-1/cardano-constitution-1.txt.md#22-economic-parameters](https://github.com/IntersectMBO/cardano-constitution/blob/main/cardano-constitution-1/cardano-constitution-1.txt.md#22-economic-parameters)
+
+[^14]: "Number and health of stake pools" [https://github.com/IntersectMBO/cardano-constitution/blob/main/cardano-constitution-1/cardano-constitution-1.txt.md#core-metrics](https://github.com/IntersectMBO/cardano-constitution/blob/main/cardano-constitution-1/cardano-constitution-1.txt.md#core-metrics)
 
 ### Product Committee 2025 Roadmap Supporting Changes
 
