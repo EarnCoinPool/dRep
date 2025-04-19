@@ -72,7 +72,7 @@ IOG has stated:
 
 "It is worth noting that the k-parameter is not amenable to small, gradual increases."[^5] and "Therefore, the best strategy for an upwards adjustment of k is to move in larger, less frequent increments – and to move it as far and as fast as practical network dynamics and economics will allow."[^5]
 
-The last time K was adjusted it went from 150 to 500 and then the recommendation from IOG was to go to 1,000. The current research looked at 750 vs 1,000 and showed 1,000 would be most effective with a projection of almost doubling our Nakamoto coefficient.[^4]
+The last time K was adjusted it went from 150 to 500 and then the recommendation from IOG was to go to 1,000. The current research looked at 750 vs 1,000 and showed 1,000 would be most effective with a projection of almost doubling our Nakamoto coefficient. While K=750 would have minimal impact[^4]
 
 IOG research has said it is safe to increase K to 1,000 on several post indicating that it's safe both for the security and economics. 
 
@@ -111,7 +111,7 @@ The most recent technical review done in April 2022 by Christina Ovezik & Aggelo
 
 
 ### Economic impact
-It's important to note SPOs are paid through two variables. Min pool fix fee and margin. The min pool fix fee can be set as low as 170. The min pool fix fee is paid only once per epoch that a pool mints a block. Another way to think of min pool fix fee is a first block of the epoch tax. Since all pools that would be affected by a decrease in the saturation cap due to an increase in K are minting blocks each epoch and would be after an increase in K, this variable is irrelevant in any economic impact assessment. This leaves only pools above 35 million in delegation and a non-0% margin to consider in analysis.
+It's important to note SPOs are paid through two variables; Min pool fix fee and margin. The min pool fix fee can be set as low as 170 ADA. The min pool fix fee is paid only once per epoch to a pool that mints a block. Another way to think of min pool fix fee is a tax on the first block of the epoch. Since all pools that would be affected by a decrease in the saturation cap due to an increase in K are minting blocks each epoch and would be after an increase in K, this variable is irrelevant in any economic impact assessment as the would receive the same ADA in fix fee before and after K increase. This leaves only pools above 35 million in delegation and a non-0% margin to consider in analysis.
 
 According to the Cardano Constitution one of the overall goals of Economic parameters is to: "Ensure that stake pools are adequately rewarded for maintaining the Cardano Blockchain"[^13] (Appendix I, Section 2.2: #2) According to the Constitution one Core Metric for Economic Parameters is the "Number and health of stake pools"[^14] (Appendix I, Section 2.2: Core Metrics)
 
@@ -121,9 +121,18 @@ According to the Cardano Constitution one of the overall goals of Economic param
 
 Increasing K would satisfy both of these, the goal and the Core Metric. We would expect to see more healthy pools and more pools adequately rewarded. Analysis shows that of the 100 pools that would be affected by the change of K to 1,000 only about 22 pools have a non - 0% margin. Meaning only 22 pools would receive less income in the form of margin per block. Each of these pools would need to increase margin to maintain current amount of earnings per epoch.
 
+**Network Cost Argument:**
 While some have argued there will be a network cost as some pools will split and spin up new pools. It's important to note that those who split pools and spin up more pools are subverting the K parameter which is meant to set a cap on the ADA staked to one entity. So having increased infrastructure cost to those who look to split could be seen a deterrent to subverting the K parameter.
 
-Note on Exchanges:
+**Cost of ADA:**
+The last time we adjusted K to 500 on December 6th 2020 the price of ADA was $0.15[^15] While the current cost as of 4/19/2025 is $0.62
+
+[^15]: Price of ADA 12/06/2020 [https://finance.yahoo.com/quote/ADA-USD/history/?period1=1607212800&period2=1607212800](https://finance.yahoo.com/quote/ADA-USD/history/?period1=1607212800&period2=1607212800)
+
+**Note on Exchanges:**
+An analysis of the two biggest exchanges Coinbase and Binance show that Binance have already setup their pools to be below the K=1,000 saturation cap.[^10] indicating they are willing and ready for K=1,000. While Coinbase currently has 29 pools of which only 17 would be above the new 35 million saturation cap at K=1,000. About 13 new pools may result if Coinbase splits it pools. It also important to note that enterprise addresses[^16] were created so that exchanges didn't participate in staking. These exchanges carry cryptocurrencies in which they can't or don't run their own staking pools for.
+
+[^16]: "Exchanges or other organizations that control large amounts of ada – but hold it on behalf of other users – may wish to follow a policy of not exercising stake rights. By using enterprise addresses, exchanges can demonstrate that they follow this policy." [https://docs.cardano.org/about-cardano/learn/cardano-addresses#enterprise-addresses](https://docs.cardano.org/about-cardano/learn/cardano-addresses#enterprise-addresses)
 
 ### Product Committee 2025 Roadmap Supporting Changes
 
