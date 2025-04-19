@@ -111,7 +111,11 @@ The most recent technical review done in April 2022 by Christina Ovezik & Aggelo
 
 
 ### Economic impact
-According to the Cardano Consitiution one of the overall goals of Economic parameters is to: "Ensure that stake pools are adequately rewarded for maintaining the Cardano Blockchain"[^13] (Appendix I, Section 2.2: #2) According to the Consitution one Core Metric for Econmic Parameters is the "Number and health of stake pools"[^14] (Appendix I, Section 2.2: Core Metrics)
+It's important to note SPOs are paid through two variables. Min pool fix fee and margin. The min pool fix fee can be set as low as 170. The min pool fix fee is paid only once per epoch that a pool mints a block. Another way to think of min pool fix fee is a first block of the epoch tax. Since all pools that would be affected by a decrease in the saturation cap due to an increase in K are minting blocks each epoch and would be after an increase in K, this variable is irrelevant in any economic impact assessment. This leaves only pools above 35 million in delegation and a non-0% margin to consider in analysis.
+
+According to the Cardano Constitution one of the overall goals of Economic parameters is to: "Ensure that stake pools are adequately rewarded for maintaining the Cardano Blockchain"[^13] (Appendix I, Section 2.2: #2) According to the Constitution one Core Metric for Economic Parameters is the "Number and health of stake pools"[^14] (Appendix I, Section 2.2: Core Metrics)
+
+Increasing K would satisfy both of these, the goal and the Core Metric. We would expect to see more healthy pools and more pools adequately rewarded. Analysis shows that of the 100 pools that would be affected by the change of K to 1,000 only about 22 pools have a non - 0% margin. Meaning only 22 pools would receive less income in the form of margin per block. Each of these pools would need to increase margin to maintain current amount of earnings per epoch.
 
 [^13]: "Ensure that stake pools are adequately rewarded for maintaining the Cardano Blockchain" [https://github.com/IntersectMBO/cardano-constitution/blob/main/cardano-constitution-1/cardano-constitution-1.txt.md#22-economic-parameters](https://github.com/IntersectMBO/cardano-constitution/blob/main/cardano-constitution-1/cardano-constitution-1.txt.md#22-economic-parameters)
 
