@@ -115,11 +115,15 @@ It's important to note SPOs are paid through two variables. Min pool fix fee and
 
 According to the Cardano Constitution one of the overall goals of Economic parameters is to: "Ensure that stake pools are adequately rewarded for maintaining the Cardano Blockchain"[^13] (Appendix I, Section 2.2: #2) According to the Constitution one Core Metric for Economic Parameters is the "Number and health of stake pools"[^14] (Appendix I, Section 2.2: Core Metrics)
 
-Increasing K would satisfy both of these, the goal and the Core Metric. We would expect to see more healthy pools and more pools adequately rewarded. Analysis shows that of the 100 pools that would be affected by the change of K to 1,000 only about 22 pools have a non - 0% margin. Meaning only 22 pools would receive less income in the form of margin per block. Each of these pools would need to increase margin to maintain current amount of earnings per epoch.
-
 [^13]: "Ensure that stake pools are adequately rewarded for maintaining the Cardano Blockchain" [https://github.com/IntersectMBO/cardano-constitution/blob/main/cardano-constitution-1/cardano-constitution-1.txt.md#22-economic-parameters](https://github.com/IntersectMBO/cardano-constitution/blob/main/cardano-constitution-1/cardano-constitution-1.txt.md#22-economic-parameters)
 
 [^14]: "Number and health of stake pools" [https://github.com/IntersectMBO/cardano-constitution/blob/main/cardano-constitution-1/cardano-constitution-1.txt.md#core-metrics](https://github.com/IntersectMBO/cardano-constitution/blob/main/cardano-constitution-1/cardano-constitution-1.txt.md#core-metrics)
+
+Increasing K would satisfy both of these, the goal and the Core Metric. We would expect to see more healthy pools and more pools adequately rewarded. Analysis shows that of the 100 pools that would be affected by the change of K to 1,000 only about 22 pools have a non - 0% margin. Meaning only 22 pools would receive less income in the form of margin per block. Each of these pools would need to increase margin to maintain current amount of earnings per epoch.
+
+While some have argued there will be a network cost as some pools will split and spin up new pools. It's important to note that those who split pools and spin up more pools are subverting the K parameter which is meant to set a cap on the ADA staked to one entity. So having increased infrastructure cost to those who look to split could be seen a deterrent to subverting the K parameter.
+
+Note on Exchanges:
 
 ### Product Committee 2025 Roadmap Supporting Changes
 
