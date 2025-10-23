@@ -29,6 +29,8 @@ Recent analysis shows minimum attack vector slowly decreasing and large pools mi
 
 
 ### Rationale
+**Note:** The choice to incorporate quotations within the Governance Action and the Rationale section was made deliberately. This approach serves a dual purpose: it highlights points that have already been articulated and reinforces them with established research findings. By referencing what has previously been stated and previous research, the Rationale demonstrates that it is evidence-based. This is done to clearly communicate that the reasoning presented is not speculative but is grounded in academic work. This approach also shifts the responsibility to those who disagree with the research cited. They are now tasked with providing their own research to challenge or counter the established findings, rather than simply expressing disagreement without supporting evidence.
+
 The K parameter was already changed once from 150 to 500 in December of 2020. The same rationale and justification given then is the same for moving K to 1,000. As IOG stated when the decision was made to increase K from 150 to 500:
 
 "Central to the health of Cardano as a vibrant proof-of-stake network is the manner in which delegators and stake operators are rewarded for running it, and how those rewards are shared to maximize decentralization and secure the network."[^5]
@@ -138,7 +140,7 @@ Increasing K would satisfy both of these, the goal and the Core Metric. We would
 While some have argued there will be a network cost as some pools will split and spin up new pools. It's important to note that those who split pools and spin up more pools are subverting the K parameter which is meant to set a cap on the ADA staked to one entity. So having increased infrastructure cost to those who look to split could be seen a deterrent to subverting the K parameter.
 
 **Cost of ADA:**
-The last time we adjusted K to 500 on December 6th 2020 the price of ADA was $0.15[^15] While the current cost as of 4/19/2025 is $0.62
+The last time we adjusted K to 500 on December 6th 2020 the price of ADA was $0.15[^15] While the current cost as of 10/23/2025 is $0.64
 
 [^15]: Price of ADA 12/06/2020 [https://finance.yahoo.com/quote/ADA-USD/history/?period1=1607212800&period2=1607212800](https://finance.yahoo.com/quote/ADA-USD/history/?period1=1607212800&period2=1607212800)
 
