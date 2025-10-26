@@ -54,10 +54,10 @@ The K parameter was already changed once from 150 to 500 in December of 2020. Th
 [^5]: [https://iohk.io/en/blog/posts/2020/11/05/parameters-and-decentralization-the-way-ahead/](https://iohk.io/en/blog/posts/2020/11/05/parameters-and-decentralization-the-way-ahead/)
 
 #### What is K and how does it work?
-The K parameter creates a soft cap on the total stake in a pool that would receive optimal rewards. This number is often referred to as the saturation level. The cap or saturation level changes over time and is defined as a percentage of the maximum supply of ada (45bn) minus any amount that remains in the reserve (as of epoch 547, Reserve: 7,311,783,103) so that would equal 37,688,216,897 ada.
+The K parameter creates a soft cap on the total stake in a pool that would receive optimal rewards. This number is often referred to as the saturation level. The cap or saturation level changes over time and is defined as a percentage of the maximum supply of ada (45bn) minus any amount that remains in the reserve (as of epoch 590, Reserve: 6,808,177,356) so that would equal 38,191,822,644 ada.
 
 The current saturation level:  
-Maximum pool size = (45bn - 7,311,783,103 in reserves) / k = (37,688,216,897 / 500 ) = 75,376,433.794  
+Maximum pool size = (45bn - 6,808,177,356 in reserves) / k = (38,191,822,644 / 500 ) = 76,383,645.288  
 
 For readability we will use approximate amounts, so approximately:  
 ***Maximum pool size = (45bn - 7bn in reserves) / k = (38bn / 500 ) = 76 million***
