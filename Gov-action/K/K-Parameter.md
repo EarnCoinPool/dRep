@@ -83,7 +83,6 @@ From IOG:
 "Modeling the long-term viability of stake pools, we found that k values of 1,000 were stable in the long term. As a result, our aim is to move to k=1,000 during March 2021. We recognize the importance of economic factors that also strongly influence pool profitability and will continue to consult widely with the community on the plan; the social dynamics of the network should also not be underestimated."[^5] and "Previously, IOG had suggested that this value could be safely raised to 1,000"[^3]
 
 
-
 #### History of Announcements and Steps to get K Parameter Increased to 1,000
 The Shelley/Decentralization phase of the roadmap included K being set to 1,000 stake pools.[^7] It was announced that K would be increased in March 2021 to 1,000[^8] However due Alonzo hard fork and the deployment of the full Goguen smart contract this was delayed.[^9] 
 
@@ -113,7 +112,7 @@ The Constitution also states that K or Target Number of Stake Pools (stakePoolTa
 
 According to the Cardano Constitution one of the overall goals of Economic parameters is to: "Ensure that stake pools are adequately rewarded for maintaining the Cardano Blockchain"[^13] (Appendix I, Section 2.2: #2) According to the Constitution one Core Metric for Economic Parameters is the "Number and health of stake pools"[^14] (Appendix I, Section 2.2: Core Metrics)
 
-Increasing K or Target Number of Stake Pools (stakePoolTargetNum) would align and satisfy both, the goal and the Core Metric.
+Increasing K or Target Number of Stake Pools (stakePoolTargetNum) would align and satisfy both, the goal and the Core Metric. Meaning increasing K would lead to more pools being "adequately rewarded for maintaining the Cardano Blockchain".
 
 [^17]: "Primarily a security parameter, ensuring decentralization by stake pool division/replication" [https://github.com/IntersectMBO/cardano-constitution/blob/main/cardano-constitution-1/cardano-constitution-1.txt.md#target-number-of-stake-pools-stakepooltargetnum](https://github.com/IntersectMBO/cardano-constitution/blob/main/cardano-constitution-1/cardano-constitution-1.txt.md#target-number-of-stake-pools-stakepooltargetnum)
 
@@ -122,7 +121,7 @@ Increasing K or Target Number of Stake Pools (stakePoolTargetNum) would align an
 ### Technical Review / Expected Impact
 "From IOG’s calculations, there are about 100 public pools that would be affected by a move to k=1,000, representing around 2bn ada that would need to be redelegated (8% of the supply)."[^3] It also important to note that exchanges like Binance have already setup their pools to be below the K=1,000 saturation cap.[^10] indicating they are willing and ready for K=1,000.
 
-The most recent technical review done in April 2022 by Christina Ovezik & Aggelos Kiayias which  took in to account pool splitting and "emulate the current Cardano stakeholder distribution, using a combination of real data points (taken from ADApools and PoolTool) and synthetic points that we draw from a Pareto distribution"[^4] found that: "As expected, the values of the Nakamoto coefficient diverge more from the ideal ones, but the increase in k still helps to achieve a higher degree of decentralisation."[^4] and "Note that the final number of pools was also lower than k in these observations, which can be attributed to the decrease in the system’s active stake."[^4] This research showed adjusting "...k can drive the system towards a more decentralised state, as measured by its Nakamoto coefficient."[^4] It also compared K=750 vs K=1,000 with the current conditions including pool splitting and demonstrated the K=1,000 almost would double our Nakamoto coefficient while K=750 would have minimal impact. This again confirms earlier research that moving K as far and as fast as possible is best method for adjusting K.
+The most recent technical review done in April 2022 by Christina Ovezik & Aggelos Kiayias which took in to account pool splitting and "emulate(s) the current Cardano stakeholder distribution, using a combination of real data points (taken from ADApools and PoolTool) and synthetic points that we draw from a Pareto distribution"[^4] found that: "As expected, the values of the Nakamoto coefficient diverge more from the ideal ones, but the increase in k still helps to achieve a higher degree of decentralisation."[^4] and "Note that the final number of pools was also lower than k in these observations, which can be attributed to the decrease in the system’s active stake."[^4] This research showed adjusting "...k can drive the system towards a more decentralised state, as measured by its Nakamoto coefficient."[^4] It also compared K=750 vs K=1,000 with the current conditions including pool splitting and demonstrated the K=1,000 almost would double our Nakamoto coefficient while K=750 would have minimal impact. This again confirms earlier research that moving K as far and as fast as possible is best method for adjusting K.
 
 [^10]: [https://pool.pm/search/bnp](https://pool.pm/search/bnp)
 
