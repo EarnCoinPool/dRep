@@ -144,7 +144,7 @@ This leaves only the pools above 35 million in delegation and a non-0% margin to
 
 > Pool Revenue = 634.85 ADA  
 > Rewards per ADA = ~0.000263  
-
+> 
 > Rewards for average ADA holder of 1,000 ADA = **0.263 ADA**
 
 **Difference per Epoch:**
