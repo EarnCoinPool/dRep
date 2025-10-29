@@ -127,7 +127,9 @@ The most recent technical review done in April 2022 by Christina Ovezik & Aggelo
 
 
 ### Economic impact
-It's important to note SPOs are paid through two variables; Min pool fix fee and margin. The min pool fix fee can be set as low as 170 ADA. The min pool fix fee is paid only once per epoch to a pool that mints a block. Another way to think of min pool fix fee is a tax on the first block of the epoch. Since all pools that would be affected by a decrease in the saturation cap due to an increase in K are minting blocks each epoch and would be after an increase in K, this variable is irrelevant in any economic impact assessment as the would receive the same ADA in fix fee before and after K increase. This leaves only pools above 35 million in delegation and a non-0% margin to consider in analysis.
+It's important to note SPOs are paid through two variables; Min pool fix fee and margin. The min pool fix fee can be set as low as 170 ADA. The min pool fix fee is paid only once per epoch to a pool that mints a block. Another way to think of min pool fix fee is a tax on the first block of the epoch. Since all pools that would be affected by a decrease in the saturation cap due to an increase in K are minting blocks each epoch and would be after an increase in K, this variable is irrelevant in any economic impact assessment as the would receive the same ADA in fix fee before and after K increase.  
+
+This leaves only pools above 35 million in delegation and a non-0% margin to consider in analysis. Analysis shows that of the 100 pools that would be affected by the change of K to 1,000 only about 22 pools have a non - 0% margin. Meaning only 22 pools would receive less income in the form of margin per block. Each of these pools would need to increase margin to maintain current amount of earnings per epoch.
 
 According to the Cardano Constitution one of the overall goals of Economic parameters is to: "Ensure that stake pools are adequately rewarded for maintaining the Cardano Blockchain"[^13] (Appendix I, Section 2.2: #2) According to the Constitution one Core Metric for Economic Parameters is the "Number and health of stake pools"[^14] (Appendix I, Section 2.2: Core Metrics)
 
@@ -135,7 +137,7 @@ According to the Cardano Constitution one of the overall goals of Economic param
 
 [^14]: "Number and health of stake pools" [https://github.com/IntersectMBO/cardano-constitution/blob/main/cardano-constitution-1/cardano-constitution-1.txt.md#core-metrics](https://github.com/IntersectMBO/cardano-constitution/blob/main/cardano-constitution-1/cardano-constitution-1.txt.md#core-metrics)
 
-Increasing K would satisfy both of these, the goal and the Core Metric. We would expect to see more healthy pools and more pools adequately rewarded. Analysis shows that of the 100 pools that would be affected by the change of K to 1,000 only about 22 pools have a non - 0% margin. Meaning only 22 pools would receive less income in the form of margin per block. Each of these pools would need to increase margin to maintain current amount of earnings per epoch.
+Increasing K would satisfy both of these, the goal and the Core Metric. We would expect to see more healthy pools and more pools adequately rewarded. 
 
 **Network Cost Argument:**
 While some have argued there will be a network cost as some pools will split and spin up new pools. It's important to note that those who split pools and spin up more pools are subverting the K parameter which is meant to set a cap on the ADA staked to one entity. So having increased infrastructure cost to those who look to split could be seen a deterrent to subverting the K parameter.
