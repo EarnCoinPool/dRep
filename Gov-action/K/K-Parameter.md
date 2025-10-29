@@ -126,10 +126,34 @@ The most recent technical review done in April 2022 by Christina Ovezik & Aggelo
 [^10]: [https://pool.pm/search/bnp](https://pool.pm/search/bnp)
 
 
-### Economic impact
-It's important to note SPOs are paid through two variables; Min pool fix fee and margin. The min pool fix fee can be set as low as 170 ADA. The min pool fix fee is paid only once per epoch to a pool that mints a block. Another way to think of min pool fix fee is a tax on the first block of the epoch. Since all pools that would be affected by a decrease in the saturation cap due to an increase in K are minting blocks each epoch and would be after an increase in K, this variable is irrelevant in any economic impact assessment as the would receive the same ADA in fix fee before and after K increase.  
+#### Economic impact
+It's important to note SPOs are paid through two variables; Min pool fix fee and margin. The min pool fix fee can be set as low as 170 ADA. The min pool fix fee is paid only once per epoch to a pool that mints a block. Another way to think of min pool fix fee is a tax on the first block of the epoch. Since all pools that would be affected by a decrease in the saturation cap due to an increase in K are already minting blocks each epoch and would be after an increase in K, this variable of min pool fix fee is irrelevant in any economic impact assessment as the Stake Pool Operator would receive the same ADA in fix fee before and after K increase.  
 
-This leaves only pools above 35 million in delegation and a non-0% margin to consider in analysis. Analysis shows that of the 100 pools that would be affected by the change of K to 1,000 only about 22 pools have a non - 0% margin. Meaning only 22 pools would receive less income in the form of margin per block. Each of these pools would need to increase margin to maintain current amount of earnings per epoch.
+This leaves only the pools above 35 million in delegation and a non-0% margin to consider in analysis. Analysis shows that of the 100 pools that would be affected by the change of K to 1,000 only about 22 pools have a non - 0% margin. Meaning only 22 pools would receive less income in the form of margin per block. Each of these pools would need to increase margin to maintain current amount of earnings per epoch. However, recent analysis shows that a pool could actally increase their margin after a K increase and it would increase their revenue and have minimal impact on their delegators. Example of research below: [^19]
+
+##### K=500 vs K=1,000 if Pool Charges fix fee and Margin of 2% and Raises Margin to 4.5% when K is increased to 1,000:
+
+**K=500 Rewards per Epoch**
+
+Pool Revenue = 586.60 ADA  
+Rewards per ADA = ~0.000272   
+
+Rewards for average ADA holder of 1,000 ADA = **0.272 ADA**
+
+**K=1,000 Rewards per Epoch**
+
+Pool Revenue = 634.85 ADA  
+Rewards per ADA = ~0.000263  
+
+Rewards for average ADA holder of 1,000 ADA = **0.263 ADA**
+
+**Difference per Epoch:**
+
+Pool Revenue = Increase of **48.25 ADA**
+
+Rewards for average ADA holder of 1,000 ADA = **Decrease of 0.009**
+
+[^19]: "Misconception: if K is raised to 1,000 pool rewards and SPO revenue will be cut in half" [https://incentives.solutions/misconception-if-k-is-raised-to-1-000-pool-rewards-and-spo-revenue-will-be-cut-in-half/](https://incentives.solutions/misconception-if-k-is-raised-to-1-000-pool-rewards-and-spo-revenue-will-be-cut-in-half/)
 
 According to the Cardano Constitution one of the overall goals of Economic parameters is to: "Ensure that stake pools are adequately rewarded for maintaining the Cardano Blockchain"[^13] (Appendix I, Section 2.2: #2) According to the Constitution one Core Metric for Economic Parameters is the "Number and health of stake pools"[^14] (Appendix I, Section 2.2: Core Metrics)
 
