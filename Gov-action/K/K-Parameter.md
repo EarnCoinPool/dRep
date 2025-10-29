@@ -8,7 +8,7 @@ Increase K (stakePoolTargetNum) from 500 to 1,000
 ## Abstract:
 This parameter governance action seeks to increase the K parameter (stakePoolTargetNum) from 500 to 1,000 to increase decentralization, improve the economic stability of more stake pools by encouraging ada holders to delegate to a wider number of pools.
 
-**NOTE:** The Constitution refers to the K parameter as stakePoolTargetNum, they are synonymous for each other. Since all the research, PCPs and past documentation refers to the parameter as K we will use the term K parameter from here on out, but K is interchangeable with term stakePoolTargetNum parameter.[^1]
+> **NOTE:** The Constitution refers to the K parameter as stakePoolTargetNum, they are synonymous for each other. Since all the research, PCPs and past documentation refers to the parameter as K we will use the term K parameter from here on out, but K is interchangeable with term stakePoolTargetNum parameter.[^1]
 
 [^1]:"stakePoolTargetNum (k parameter)" [https://docs.cardano.org/about-cardano/explore-more/parameter-guide](https://docs.cardano.org/about-cardano/explore-more/parameter-guide)
 
@@ -29,7 +29,7 @@ Recent analysis shows minimum attack vector slowly decreasing and large pools mi
 
 
 ## Rationale
-**Note:** The choice to incorporate quotations within the Governance Action and the Rationale section was made deliberately. This approach serves a dual purpose: it highlights points that have already been articulated and reinforces them with established research findings. By referencing what has previously been stated and previous research, the Rationale demonstrates that it is evidence-based. This is done to clearly communicate that the reasoning presented is not speculative but is grounded in academic work. This approach also shifts the responsibility to those who disagree with the research cited. They are now tasked with providing their own research to challenge or counter the established findings, rather than simply expressing disagreement without supporting evidence.
+> **Note:** The choice to incorporate quotations within the Governance Action and the Rationale section was made deliberately. This approach serves a dual purpose: it highlights points that have already been articulated and reinforces them with established research findings. By referencing what has previously been stated and previous research, the Rationale demonstrates that it is evidence-based. This is done to clearly communicate that the reasoning presented is not speculative but is grounded in academic work. This approach also shifts the responsibility to those who disagree with the research cited. They are now tasked with providing their own research to challenge or counter the established findings, rather than simply expressing disagreement without supporting evidence.
 
 The K parameter was already changed once from 150 to 500 in December of 2020. The same rationale and justification given then is the same for moving K to 1,000. As IOG stated when the decision was made to increase K from 150 to 500:
 
@@ -53,7 +53,7 @@ The K parameter was already changed once from 150 to 500 in December of 2020. Th
 
 [^5]: [https://iohk.io/en/blog/posts/2020/11/05/parameters-and-decentralization-the-way-ahead/](https://iohk.io/en/blog/posts/2020/11/05/parameters-and-decentralization-the-way-ahead/)
 
-#### What is K and how does it work?
+### What is K and how does it work?
 The K parameter creates a soft cap on the total stake in a pool that would receive optimal rewards. This number is often referred to as the saturation level. The cap or saturation level changes over time and is defined as a percentage of the maximum supply of ada (45bn) minus any amount that remains in the reserve (as of epoch 590, Reserve: 6,808,177,356) so that would equal 38,191,822,644 ada.
 
 The current saturation level:  
@@ -69,7 +69,7 @@ Adjusting K parameter to 1,000 would set the saturation level to the following a
 
 The move to K=1,000 with a saturation level around 38 million ada will, as stated above by IOHK will incentivize delegators to move their stake to a stake pool containing less ada, so they can maintain their rewards, thus encouraging wider decentralization of the Cardano network.[^3]
 
-#### Is it safe to move K to 1,000 and why moving in one big move is recommended by IOG Scientist
+### Is it safe to move K to 1,000 and why moving in one big move is recommended by IOG Scientist
 IOG has stated:
 
 "It is worth noting that the k-parameter is not amenable to small, gradual increases."[^5] and "Therefore, the best strategy for an upwards adjustment of k is to move in larger, less frequent increments – and to move it as far and as fast as practical network dynamics and economics will allow."[^5]
@@ -83,7 +83,7 @@ From IOG:
 "Modeling the long-term viability of stake pools, we found that k values of 1,000 were stable in the long term. As a result, our aim is to move to k=1,000 during March 2021. We recognize the importance of economic factors that also strongly influence pool profitability and will continue to consult widely with the community on the plan; the social dynamics of the network should also not be underestimated."[^5] and "Previously, IOG had suggested that this value could be safely raised to 1,000"[^3]
 
 
-#### History of Announcements and Steps to get K Parameter Increased to 1,000
+### History of Announcements and Steps to get K Parameter Increased to 1,000
 The Shelley/Decentralization phase of the roadmap included K being set to 1,000 stake pools.[^7] It was announced that K would be increased in March 2021 to 1,000[^8] However due Alonzo hard fork and the deployment of the full Goguen smart contract this was delayed.[^9] 
 
 After the delay, IOG then sent several surveys and had several discussions with the SPOs over the next year or two. In May 2023 a mainnet poll was conducted. At first SPOs were told it was just on K but then as the poll date neared, min pool fee was added. The mainnet poll took place in epochs 412-415 in May 2023 with the results supporting the option to Increase K to 1,000 and halve minPoolCost to 170 ada. AdaStat.net shows the voting results using 5 metrics. K=1,000 and min fee of 170 won the poll using each of the 5 metrics.[^6]
@@ -166,20 +166,20 @@ A common misconception is that the increasing K to 1,000 will lead to delegators
 
 [^19]: "Misconception: if K is raised to 1,000 pool rewards and SPO revenue will be cut in half" [https://incentives.solutions/misconception-if-k-is-raised-to-1-000-pool-rewards-and-spo-revenue-will-be-cut-in-half/](https://incentives.solutions/misconception-if-k-is-raised-to-1-000-pool-rewards-and-spo-revenue-will-be-cut-in-half/)
 
-**Network Cost Argument:**
+#### Network Cost Argument:
 While some have argued there will be a network cost as some pools will split and spin up new pools. It's important to note that those who split pools and spin up more pools are subverting the K parameter which is meant to set a cap on the ADA staked to one entity. So having increased infrastructure cost to those who look to split could be seen a deterrent to subverting the K parameter.
 
-**Cost of ADA:**
+#### Cost of ADA:
 The last time we adjusted K to 500 on December 6th 2020 the price of ADA was $0.15[^15] While the current cost as of 10/23/2025 is $0.64
 
 [^15]: Price of ADA 12/06/2020 [https://finance.yahoo.com/quote/ADA-USD/history/?period1=1607212800&period2=1607212800](https://finance.yahoo.com/quote/ADA-USD/history/?period1=1607212800&period2=1607212800)
 
-**Note on Exchanges:**
+#### Note on Exchanges:
 An analysis of the two biggest exchanges Coinbase and Binance show that Binance have already setup their pools to be below the K=1,000 saturation cap.[^10] indicating they are willing and ready for K=1,000. While Coinbase currently has 29 pools of which only 17 would be above the new 35 million saturation cap at K=1,000. About 13 new pools may result if Coinbase splits it pools. It also important to note that enterprise addresses[^16] were created so that exchanges didn't participate in staking. These exchanges carry cryptocurrencies in which they can't or don't run their own staking pools for.
 
 [^16]: "Exchanges or other organizations that control large amounts of ada – but hold it on behalf of other users – may wish to follow a policy of not exercising stake rights. By using enterprise addresses, exchanges can demonstrate that they follow this policy." [https://docs.cardano.org/about-cardano/learn/cardano-addresses#enterprise-addresses](https://docs.cardano.org/about-cardano/learn/cardano-addresses#enterprise-addresses)
 
-**Economic Parameters and the Cardano Constitution Alignment**
+#### Economic Parameters and the Cardano Constitution Alignment
 According to the Cardano Constitution one of the overall goals of Economic parameters is to: "Ensure that stake pools are adequately rewarded for maintaining the Cardano Blockchain"[^13] (Appendix I, Section 2.2: #2) According to the Constitution one Core Metric for Economic Parameters is the "Number and health of stake pools"[^14] (Appendix I, Section 2.2: Core Metrics)
 
 [^13]: "Ensure that stake pools are adequately rewarded for maintaining the Cardano Blockchain" [https://github.com/IntersectMBO/cardano-constitution/blob/main/cardano-constitution-1/cardano-constitution-1.txt.md#22-economic-parameters](https://github.com/IntersectMBO/cardano-constitution/blob/main/cardano-constitution-1/cardano-constitution-1.txt.md#22-economic-parameters)
