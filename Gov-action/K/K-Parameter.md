@@ -1,18 +1,18 @@
 
-### Governance Action Type:
+## Governance Action Type:
 Parameters
 
-### Title:
+## Title:
 Increase K (stakePoolTargetNum) from 500 to 1,000
 
-### Abstract:
+## Abstract:
 This parameter governance action seeks to increase the K parameter (stakePoolTargetNum) from 500 to 1,000 to increase decentralization, improve the economic stability of more stake pools by encouraging ada holders to delegate to a wider number of pools.
 
 **NOTE:** The Constitution refers to the K parameter as stakePoolTargetNum, they are synonymous for each other. Since all the research, PCPs and past documentation refers to the parameter as K we will use the term K parameter from here on out, but K is interchangeable with term stakePoolTargetNum parameter.[^1]
 
 [^1]:"stakePoolTargetNum (k parameter)" [https://docs.cardano.org/about-cardano/explore-more/parameter-guide](https://docs.cardano.org/about-cardano/explore-more/parameter-guide)
 
-### Motivation 
+## Motivation 
 The K parameter is ID’d as the parameter central to decentralization and as such is used to tune decentralization. Cardano experts are generally understood to believe that the design premise of K is sound and the research that justifies it is well-understood and correct. "the increase of k does trigger a substantial increase in the Nakamoto coefficient, confirming that a change in k can aid in boosting the decentralisation of the system."[^12]
 
 [^12]: "the increase of k does trigger a substantial increase in the Nakamoto coefficient, confirming that a change in k can aid in boosting the decentralisation of the system." [https://blogs.ed.ac.uk/blockchain/2022/04/19/pool-splitting-behaviour-and-equilibrium-properties-in-cardano-rewards-scheme/](https://blogs.ed.ac.uk/blockchain/2022/04/19/pool-splitting-behaviour-and-equilibrium-properties-in-cardano-rewards-scheme/)
@@ -28,7 +28,7 @@ Recent analysis shows minimum attack vector slowly decreasing and large pools mi
 
 
 
-### Rationale
+## Rationale
 **Note:** The choice to incorporate quotations within the Governance Action and the Rationale section was made deliberately. This approach serves a dual purpose: it highlights points that have already been articulated and reinforces them with established research findings. By referencing what has previously been stated and previous research, the Rationale demonstrates that it is evidence-based. This is done to clearly communicate that the reasoning presented is not speculative but is grounded in academic work. This approach also shifts the responsibility to those who disagree with the research cited. They are now tasked with providing their own research to challenge or counter the established findings, rather than simply expressing disagreement without supporting evidence.
 
 The K parameter was already changed once from 150 to 500 in December of 2020. The same rationale and justification given then is the same for moving K to 1,000. As IOG stated when the decision was made to increase K from 150 to 500:
@@ -204,7 +204,7 @@ A reversion/recovery plan should not be necessary as the K parameters have been 
 
 Under Appendix I, Section 1 there are 3 Severity Levels classified; Severity 1 is a critical incident or issue, Severity 2 is a major incident or issue, and Severity 3 is a minor incident or issue.
 
-### References and Supporting Information
+## References and Supporting Information
 
 * K- PCP submitted by Earn Coin Pool 
 https://forum.cardano.org/t/pcp-k-parameter-earncoinpool/122701
