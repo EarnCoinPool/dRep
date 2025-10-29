@@ -153,6 +153,17 @@ This leaves only the pools above 35 million in delegation and a non-0% margin to
 > 
 > Rewards for average ADA holder of 1,000 ADA = **Decrease of 0.009**
 
+A common misconception is that the increasing K to 1,000 will lead to delegators getting half the rewards. People logically get to this conclusion, observing that cutting the saturation cap in half means half the number of blocks in an Epoch (5 days). However, what is often misunderstood is that, while the pool mints half the number of blocks, the SPO is now splitting rewards with half the number of ADA delegated. So the block rewards per ADA delegated will be split with half the ADA.Esimates show delegator rewards would decrease each epoch about 0.000002 per ADA delegated. The differenc over a year would be 0.000146 per ADA (0.000002 x 73 epochs = 0.000146 ADA) This slight difference is due to the pool fix fee.
+
+
+###### Esitmates based on Epoch 567 using these variables:
+
+> K=500 Saturation level = ~75 million
+> K=1,000 Saturation level = ~37.5 million
+> Pool Fixed fee = 170
+> Block minted in Epoch of a fully saturated pool = ~60
+> Block rewards per block = ~350 ADA  
+
 [^19]: "Misconception: if K is raised to 1,000 pool rewards and SPO revenue will be cut in half" [https://incentives.solutions/misconception-if-k-is-raised-to-1-000-pool-rewards-and-spo-revenue-will-be-cut-in-half/](https://incentives.solutions/misconception-if-k-is-raised-to-1-000-pool-rewards-and-spo-revenue-will-be-cut-in-half/)
 
 According to the Cardano Constitution one of the overall goals of Economic parameters is to: "Ensure that stake pools are adequately rewarded for maintaining the Cardano Blockchain"[^13] (Appendix I, Section 2.2: #2) According to the Constitution one Core Metric for Economic Parameters is the "Number and health of stake pools"[^14] (Appendix I, Section 2.2: Core Metrics)
