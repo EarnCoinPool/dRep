@@ -129,7 +129,7 @@ The most recent technical review done in April 2022 by Christina Ovezik & Aggelo
 ### Economic impact
 It's important to note SPOs are paid through two variables; Min pool fix fee and margin. The min pool fix fee can be set as low as 170 ADA. The min pool fix fee is paid only once per epoch to a pool that mints a block. Another way to think of min pool fix fee is a tax on the first block of the epoch. Since all pools that would be affected by a decrease in the saturation cap due to an increase in K are already minting blocks each epoch and would be after an increase in K, this variable of min pool fix fee is irrelevant in any economic impact assessment as the Stake Pool Operator would receive the same ADA in fix fee before and after K increase.  
 
-This leaves only the pools above 35 million in delegation and a non-0% margin to consider in analysis. Analysis shows that of the 100 pools that would be affected by the change of K to 1,000 only about 22 pools have a non - 0% margin. Meaning only 22 pools would receive less income in the form of margin per block. Each of these pools would need to increase margin to maintain current amount of earnings per epoch. However, recent analysis shows that a pool could actally increase their margin after a K increase and it would increase their revenue and have minimal impact on their delegators. Example of research below: [^19]
+This leaves only the pools above 35 million in delegation and a non-0% margin to consider in analysis. Analysis shows that of the 100 pools that would be affected by the change of K to 1,000 only about 22 pools have a non - 0% margin. Meaning only 22 pools would receive less income in the form of margin per block. Each of these pools would need to increase margin to maintain current amount of earnings per epoch. However, recent analysis shows that a pool could actually increase their margin after a K increase and it would increase their revenue and have minimal impact on their delegators. Example of research below: [^19]
 
 #### K=500 vs K=1,000 if Pool Charges fix fee and Margin of 2% and Raises Margin to 4.5% when K is increased to 1,000:
 
@@ -153,10 +153,10 @@ This leaves only the pools above 35 million in delegation and a non-0% margin to
 > 
 > Rewards for average ADA holder of 1,000 ADA = **Decrease of 0.009**
 
-A common misconception is that the increasing K to 1,000 will lead to delegators getting half the rewards. People logically get to this conclusion, observing that cutting the saturation cap in half means half the number of blocks in an Epoch (5 days). However, what is often misunderstood is that, while the pool mints half the number of blocks, the SPO is now splitting rewards with half the number of ADA delegated. So the block rewards per ADA delegated will be split with half the ADA.Esimates show delegator rewards would decrease each epoch about 0.000002 per ADA delegated. The differenc over a year would be 0.000146 per ADA (0.000002 x 73 epochs = 0.000146 ADA) This slight difference is due to the pool fix fee.
+A common misconception is that the increasing K to 1,000 will lead to delegators getting half the rewards. People logically get to this conclusion, observing that cutting the saturation cap in half means half the number of blocks in an Epoch (5 days). However, what is often misunderstood is that, while the pool mints half the number of blocks, the SPO is now splitting rewards with half the number of ADA delegated. So, the block rewards per ADA delegated will be split with half the ADA. Estimates show delegator rewards would decrease each epoch about 0.000002 per ADA delegated. The difference over a year would be 0.000146 per ADA (0.000002 x 73 epochs = 0.000146 ADA) This slight difference is due to the pool fix fee.
 
 
-###### Esitmates based on Epoch 567 using these variables:
+###### Estimates based on Epoch 567 using these variables:
 
 > K=500 Saturation level = ~75 million
 > K=1,000 Saturation level = ~37.5 million
@@ -165,14 +165,6 @@ A common misconception is that the increasing K to 1,000 will lead to delegators
 > Block rewards per block = ~350 ADA  
 
 [^19]: "Misconception: if K is raised to 1,000 pool rewards and SPO revenue will be cut in half" [https://incentives.solutions/misconception-if-k-is-raised-to-1-000-pool-rewards-and-spo-revenue-will-be-cut-in-half/](https://incentives.solutions/misconception-if-k-is-raised-to-1-000-pool-rewards-and-spo-revenue-will-be-cut-in-half/)
-
-According to the Cardano Constitution one of the overall goals of Economic parameters is to: "Ensure that stake pools are adequately rewarded for maintaining the Cardano Blockchain"[^13] (Appendix I, Section 2.2: #2) According to the Constitution one Core Metric for Economic Parameters is the "Number and health of stake pools"[^14] (Appendix I, Section 2.2: Core Metrics)
-
-[^13]: "Ensure that stake pools are adequately rewarded for maintaining the Cardano Blockchain" [https://github.com/IntersectMBO/cardano-constitution/blob/main/cardano-constitution-1/cardano-constitution-1.txt.md#22-economic-parameters](https://github.com/IntersectMBO/cardano-constitution/blob/main/cardano-constitution-1/cardano-constitution-1.txt.md#22-economic-parameters)
-
-[^14]: "Number and health of stake pools" [https://github.com/IntersectMBO/cardano-constitution/blob/main/cardano-constitution-1/cardano-constitution-1.txt.md#core-metrics](https://github.com/IntersectMBO/cardano-constitution/blob/main/cardano-constitution-1/cardano-constitution-1.txt.md#core-metrics)
-
-Increasing K would satisfy both of these, the goal and the Core Metric. We would expect to see more healthy pools and more pools adequately rewarded. 
 
 **Network Cost Argument:**
 While some have argued there will be a network cost as some pools will split and spin up new pools. It's important to note that those who split pools and spin up more pools are subverting the K parameter which is meant to set a cap on the ADA staked to one entity. So having increased infrastructure cost to those who look to split could be seen a deterrent to subverting the K parameter.
@@ -186,6 +178,16 @@ The last time we adjusted K to 500 on December 6th 2020 the price of ADA was $0.
 An analysis of the two biggest exchanges Coinbase and Binance show that Binance have already setup their pools to be below the K=1,000 saturation cap.[^10] indicating they are willing and ready for K=1,000. While Coinbase currently has 29 pools of which only 17 would be above the new 35 million saturation cap at K=1,000. About 13 new pools may result if Coinbase splits it pools. It also important to note that enterprise addresses[^16] were created so that exchanges didn't participate in staking. These exchanges carry cryptocurrencies in which they can't or don't run their own staking pools for.
 
 [^16]: "Exchanges or other organizations that control large amounts of ada – but hold it on behalf of other users – may wish to follow a policy of not exercising stake rights. By using enterprise addresses, exchanges can demonstrate that they follow this policy." [https://docs.cardano.org/about-cardano/learn/cardano-addresses#enterprise-addresses](https://docs.cardano.org/about-cardano/learn/cardano-addresses#enterprise-addresses)
+
+**Economic Parameters and the Cardano Constitution Alignment**
+According to the Cardano Constitution one of the overall goals of Economic parameters is to: "Ensure that stake pools are adequately rewarded for maintaining the Cardano Blockchain"[^13] (Appendix I, Section 2.2: #2) According to the Constitution one Core Metric for Economic Parameters is the "Number and health of stake pools"[^14] (Appendix I, Section 2.2: Core Metrics)
+
+[^13]: "Ensure that stake pools are adequately rewarded for maintaining the Cardano Blockchain" [https://github.com/IntersectMBO/cardano-constitution/blob/main/cardano-constitution-1/cardano-constitution-1.txt.md#22-economic-parameters](https://github.com/IntersectMBO/cardano-constitution/blob/main/cardano-constitution-1/cardano-constitution-1.txt.md#22-economic-parameters)
+
+[^14]: "Number and health of stake pools" [https://github.com/IntersectMBO/cardano-constitution/blob/main/cardano-constitution-1/cardano-constitution-1.txt.md#core-metrics](https://github.com/IntersectMBO/cardano-constitution/blob/main/cardano-constitution-1/cardano-constitution-1.txt.md#core-metrics)
+
+Increasing K would satisfy both the goal and the Core Metric. We would expect to see more healthy pools and more pools adequately rewarded. 
+
 
 ### Product Committee 2025 Roadmap Supporting Changes
 
