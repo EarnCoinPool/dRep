@@ -67,14 +67,14 @@ For readability we will use approximate amounts, so approximately:
 Adjusting K parameter to 1,000 would set the saturation level to the following approximate level:  
 ***Maximum pool size = (45bn -  7bn in reserves) / k = (38bn / 1000 ) = 38 million***  
 
-The move to K=1,000 with a saturation level around 38 million ada will, as stated above by IOHK will incentivize delegators to move their stake to a stake pool containing less ada, so they can maintain their rewards, thus encouraging wider decentralization of the Cardano network.[^3]
+The move to K=1,000 with a saturation level around 38 million ada will, as stated above by IOHK, incentivize delegators to move their stake to a stake pool containing less ada, so they can maintain their rewards, thus encouraging wider decentralization of the Cardano network.[^3]
 
 ### Is it safe to move K to 1,000 and why moving in one big move is recommended by IOG Scientist
 IOG has stated:
 
 "It is worth noting that the k-parameter is not amenable to small, gradual increases."[^5] and "Therefore, the best strategy for an upwards adjustment of k is to move in larger, less frequent increments – and to move it as far and as fast as practical network dynamics and economics will allow."[^5]
 
-The last time K was adjusted it went from 150 to 500 and then the recommendation from IOG was to go to 1,000. The current research looked at 750 vs 1,000 and showed 1,000 would be most effective with a projection of almost doubling our Nakamoto coefficient. While K=750 would have minimal impact[^4]
+The last time K was adjusted it went from 150 to 500 and then the recommendation from IOG was to go to 1,000. The current research looked at 750 vs 1,000 and showed 1,000 would be most effective with a projection of almost doubling our Nakamoto coefficient, while K=750 would have minimal impact[^4]
 
 IOG research has said it is safe to increase K to 1,000 on several post indicating that it's safe both for the security and economics. 
 
@@ -84,13 +84,13 @@ From IOG:
 
 
 ### History of Announcements and Steps to get K Parameter Increased to 1,000
-The Shelley/Decentralization phase of the roadmap included K being set to 1,000 stake pools.[^7] It was announced that K would be increased in March 2021 to 1,000[^8] However due Alonzo hard fork and the deployment of the full Goguen smart contract this was delayed.[^9] 
+The Shelley/Decentralization phase of the roadmap included K being set to 1,000 stake pools.[^7] It was announced that K would be increased in March 2021 to 1,000[^8] However, this was delayed due to the Alonzo hard fork and the deployment of full Goguen smart contracts.[^9] 
 
-After the delay, IOG then sent several surveys and had several discussions with the SPOs over the next year or two. In May 2023 a mainnet poll was conducted. At first SPOs were told it was just on K but then as the poll date neared, min pool fee was added. The mainnet poll took place in epochs 412-415 in May 2023 with the results supporting the option to Increase K to 1,000 and halve minPoolCost to 170 ada. AdaStat.net shows the voting results using 5 metrics. K=1,000 and min fee of 170 won the poll using each of the 5 metrics.[^6]
+After the delay, IOG ran several surveys and had several discussions with the SPOs over the next year or two. In May 2023 a mainnet poll was conducted: At first SPOs were told it was just on K but then as the poll date neared, min pool fee was added. The mainnet poll took place in epochs 412-415 in May 2023 with the results supporting the option to Increase K to 1,000 and halve minPoolCost to 170 ada. AdaStat.net shows the voting results using 5 metrics. K=1,000 and min fee of 170 won the poll using each of the 5 metrics.[^6]
 
 However, the Parameters Committee decided to just adjust min pool fee and then "watch metrics" before adjusting K. The SPO community was then told there was a new process and if we wanted to adjust K, using newly formed Parameters Committee Proposal (PCP) which would need to be submitted via Cardano forum and an official document. 
 
-October 2023 Earn Coin Pool submitted a K-PCP. The K-PCP was not taken up by the committee and PCP authors were notified that current PCP would need to resubmit to be considered in the next window.
+October 2023 Earn Coin Pool submitted a K-PCP. The K-PCP was not taken up by the committee and PCP authors were notified that current PCPs would need to resubmitted to be considered in the next window.
 
 In May 2024 Earn Coin Pool submitted a Position to Resubmit the K-PCP. The Parameters Committee did not take up the PCP and did not issue a regular PCP result but issued a comment on this discussion of the K parameter to support the community endeavor.
 
@@ -112,7 +112,7 @@ The Constitution also states that K or Target Number of Stake Pools (stakePoolTa
 
 According to the Cardano Constitution one of the overall goals of Economic parameters is to: "Ensure that stake pools are adequately rewarded for maintaining the Cardano Blockchain"[^13] (Appendix I, Section 2.2: #2) According to the Constitution one Core Metric for Economic Parameters is the "Number and health of stake pools"[^14] (Appendix I, Section 2.2: Core Metrics)
 
-Increasing K or Target Number of Stake Pools (stakePoolTargetNum) would align and satisfy both, the goal and the Core Metric. Meaning increasing K would lead to more pools being "adequately rewarded for maintaining the Cardano Blockchain".
+Increasing K or Target Number of Stake Pools (stakePoolTargetNum) would align with and satisfy both, the goal and the Core Metric. Meaning increasing K would lead to more pools being "adequately rewarded for maintaining the Cardano Blockchain".
 
 [^17]: "Primarily a security parameter, ensuring decentralization by stake pool division/replication" [https://github.com/IntersectMBO/cardano-constitution/blob/main/cardano-constitution-1/cardano-constitution-1.txt.md#target-number-of-stake-pools-stakepooltargetnum](https://github.com/IntersectMBO/cardano-constitution/blob/main/cardano-constitution-1/cardano-constitution-1.txt.md#target-number-of-stake-pools-stakepooltargetnum)
 
@@ -167,7 +167,7 @@ A common misconception is that the increasing K to 1,000 will lead to delegators
 [^19]: "Misconception: if K is raised to 1,000 pool rewards and SPO revenue will be cut in half" [https://incentives.solutions/misconception-if-k-is-raised-to-1-000-pool-rewards-and-spo-revenue-will-be-cut-in-half/](https://incentives.solutions/misconception-if-k-is-raised-to-1-000-pool-rewards-and-spo-revenue-will-be-cut-in-half/)
 
 #### Network Cost Argument:
-While some have argued there will be a network cost as some pools will split and spin up new pools. It's important to note that those who split pools and spin up more pools are subverting the K parameter which is meant to set a cap on the ADA staked to one entity. So having increased infrastructure cost to those who look to split could be seen a deterrent to subverting the K parameter.
+Some have argued there will be a network cost as some pools will split and spin up new pools. However, it's important to note that those who split pools and spin up more pools are subverting the K parameter which is meant to set a cap on the ADA staked to one entity. So having increased infrastructure cost to those who look to split could be seen as deterrent to subverting the K parameter.
 
 #### Cost of ADA:
 The last time we adjusted K to 500 on December 6th 2020 the price of ADA was $0.15[^15] While the current cost as of 10/23/2025 is $0.64
@@ -175,7 +175,7 @@ The last time we adjusted K to 500 on December 6th 2020 the price of ADA was $0.
 [^15]: Price of ADA 12/06/2020 [https://finance.yahoo.com/quote/ADA-USD/history/?period1=1607212800&period2=1607212800](https://finance.yahoo.com/quote/ADA-USD/history/?period1=1607212800&period2=1607212800)
 
 #### Note on Exchanges:
-An analysis of the two biggest exchanges Coinbase and Binance show that Binance have already setup their pools to be below the K=1,000 saturation cap.[^10] indicating they are willing and ready for K=1,000. While Coinbase currently has 29 pools of which only 17 would be above the new 35 million saturation cap at K=1,000. About 13 new pools may result if Coinbase splits it pools. It also important to note that enterprise addresses[^16] were created so that exchanges didn't participate in staking. These exchanges carry cryptocurrencies in which they can't or don't run their own staking pools for.
+An analysis of the two biggest exchanges (Coinbase and Binance) show that Binance have already setup their pools to be below the K=1,000 saturation cap.[^10] indicating they are willing and ready for K=1,000. While Coinbase currently have 29 pools of which only 17 would be above the new 35 million saturation cap at K=1,000. About 13 new pools may result if Coinbase split their pools. It's also important to note that enterprise addresses[^16] were created so that exchanges didn't participate in staking. These exchanges carry cryptocurrencies for which they can't (or don't) run their own staking pools.
 
 [^16]: "Exchanges or other organizations that control large amounts of ada – but hold it on behalf of other users – may wish to follow a policy of not exercising stake rights. By using enterprise addresses, exchanges can demonstrate that they follow this policy." [https://docs.cardano.org/about-cardano/learn/cardano-addresses#enterprise-addresses](https://docs.cardano.org/about-cardano/learn/cardano-addresses#enterprise-addresses)
 
@@ -195,12 +195,12 @@ The Product Committee 2025 roadmap includes:
 * Introduce min-margin parameter that can be voted on via governance to modify[^11]
 * Modify pledge-benefit curve for a0[^11]
 
-The 2025 roadmap includes two items that many believe with further help a change to K be more effective. Replacing min pool fee with a min margin and a0 adjustments, making pledge move effective. These two changes could further lead to better than the project results of doubling our Nakamoto coefficient.
+The 2025 roadmap includes two items that many believe will further help a change in K to be more effective. Replacing min pool fee with a min margin and a0 adjustments, making pledge move effective. These two changes could further lead to better than the projected results of doubling the Nakamoto coefficient.
 
 [^11]: Product Committee: 2025 Proposed Cardano Roadmap [https://productcommittee.docs.intersectmbo.org/committee-outcomes/2025-cardanos-roadmap/2025-proposed-cardano-roadmap](https://productcommittee.docs.intersectmbo.org/committee-outcomes/2025-cardanos-roadmap/2025-proposed-cardano-roadmap)
 
 ### Reversion/Recovery Plan
-A reversion/recovery plan should not be necessary as the K parameters have been changed in the past and the effects are known. However, in case of a disaster recovery the K parameter can/would be set back to 500 if a reverting change was necessary due to either a Severity 1 or Severity 2 incident or issue. If a Severity 3 incident or issue the K parameter can/would be set back to 750 for further monitoring. If at K=750 and the Severity increased to the 1 or 2 level, the K parameter would be set back to 500. No other actions would need to be taken to restore the network.  
+A reversion/recovery plan should not be necessary as the K parameters has been changed in the past and the effects are known. However, in case of a disaster recovery the K parameter can/would be set back to 500 if a reverting change was necessary due to either a Severity 1 or Severity 2 incident or issue. If a Severity 3 incident or issue were to occur, the K parameter can/would be set back to 750 for further monitoring. If at K=750 and the Severity increased to the 1 or 2 level, the K parameter would be set back to 500. No other actions would need to be taken to restore the network.  
 
 Under Appendix I, Section 1 there are 3 Severity Levels classified; Severity 1 is a critical incident or issue, Severity 2 is a major incident or issue, and Severity 3 is a minor incident or issue.
 
