@@ -102,7 +102,7 @@ Now it's up to the community to submit a parameter governance proposal.
 [^9]: "K will not change in Q3. Our focus is on a successful Alonzo hard fork and the deployment of the full Goguen smart contract capability. We have also clearly stated elements like multi-pool delegation get put in place as we reopen the consultation on K and other parameters."[https://x.com/timbharrison/status/1399657898364518401](https://x.com/timbharrison/status/1399657898364518401)
 
 ### Precedent: K was already increased to 500
-When Shelley was deployed on mainnet, k was set to 150, which put the saturation around 210 million ADA. On Sunday, December 6, 2020 at epoch 234 (21:44 UTC) K was increased to 500.[^5] In March 2021 IOHK had this to say about the move:
+When Shelley was deployed on mainnet, k was set to 150, which put the saturation around 210 million ADA. On Sunday, December 6, 2020 K was increased to 500 at epoch 234 (21:44 UTC).[^5] In March 2021 IOHK had this to say about the increase of K to 500:
 
 "The move to k=500 was a balanced decision based on the need to create opportunity for more pools to produce blocks (by encouraging the flow of stake from saturated pools into new pools), while supporting the pools already creating blocks, and minimizing disruption for their delegators. Overall, it has proven successful – let's dive a little deeper."
 
