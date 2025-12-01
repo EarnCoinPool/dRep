@@ -102,14 +102,16 @@ Now it's up to the community to submit a parameter governance proposal.
 [^9]: "K will not change in Q3. Our focus is on a successful Alonzo hard fork and the deployment of the full Goguen smart contract capability. We have also clearly stated elements like multi-pool delegation get put in place as we reopen the consultation on K and other parameters."[https://x.com/timbharrison/status/1399657898364518401](https://x.com/timbharrison/status/1399657898364518401)
 
 ### Precedent: K was already increased to 500
-When Shelley was deployed on mainnet, k was set to 150, which put the saturation around 210 million ADA. On Sunday, December 6, 2020 at epoch 234 (21:44 UTC) K was increased to 500. [^5] In March 2021 IOHK had this to say about the move:
+When Shelley was deployed on mainnet, k was set to 150, which put the saturation around 210 million ADA. On Sunday, December 6, 2020 at epoch 234 (21:44 UTC) K was increased to 500.[^5] In March 2021 IOHK had this to say about the move:
 
-"The move to k=500 was a balanced decision based on the need to create opportunity for more pools to produce blocks (by encouraging the flow of stake from saturated pools into new pools), while supporting the pools already creating blocks, and minimizing disruption for their delegators. Overall, it has proven successful – let's dive a little deeper.
+"The move to k=500 was a balanced decision based on the need to create opportunity for more pools to produce blocks (by encouraging the flow of stake from saturated pools into new pools), while supporting the pools already creating blocks, and minimizing disruption for their delegators. Overall, it has proven successful – let's dive a little deeper."
 
-The change to k=500
-Prior to the announcement that k was changing, 54.6% of all delegated ada was represented by the 10 largest stake pools and 45.4% of ada represented by smaller pools. Following the change to k=500, those numbers have reversed: 55.9% of ada is now represented by pools other than the 10 largest.
+"The change to k=500
+Prior to the announcement that k was changing, 54.6% of all delegated ada was represented by the 10 largest stake pools and 45.4% of ada represented by smaller pools. Following the change to k=500, those numbers have reversed: 55.9% of ada is now represented by pools other than the 10 largest."
 
-This was a dramatic change directly linked to the change in k." [
+"This was a dramatic change directly linked to the change in k."[^20]
+
+[^20]:"The move to k=500" [https://docs.cardano.org/about-cardano/explore-more/parameter-guide](https://iohk.io/en/blog/posts/2021/03/04/not-long-till-d-0-day/)
 
 ### Constitutional Alignment
 The Constitution states that: Target Number of Stake Pools (stakePoolTargetNum) is "Primarily a security parameter, ensuring decentralization by stake pool division/replication"[^17] 
