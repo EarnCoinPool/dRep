@@ -26,7 +26,10 @@ Recent analysis shows minimum attack vector slowly decreasing and large pools mi
 
 [^4]:Nakamoto coefficient for K=500 is 116, expected at K=1,000 is 226 [https://blogs.ed.ac.uk/blockchain/2022/04/19/pool-splitting-behaviour-and-equilibrium-properties-in-cardano-rewards-scheme/](https://blogs.ed.ac.uk/blockchain/2022/04/19/pool-splitting-behaviour-and-equilibrium-properties-in-cardano-rewards-scheme/)
 
+The most recent research by Input Output Engineering in November of 2025 states that there is a: "**High social risk:** The most immediate threat is operator disillusionment. The “viability gap” and the pledge paradox have created a large segment of the operator community that feels the system is inequitable."[^21] This viability gap in the research was stated as: "...the “viability gap”: 873 active operators (54% of the total) remain below the 3M ADA threshold required for consistent block production."[^21] "At the time of writing this report there are only 77 saturated pools."[^21]
 
+[^21]: Analysis of Cardano’s incentive mechanism - Carlos Lopez de Lara - Input Output Engineering Last update: November 6, 2025
+https://github.com/input-output-hk/spo-incentives/blob/main/report.pdf
 
 ## Rationale
 > **Note:** The choice to incorporate quotations within the Governance Action and the Rationale section was made deliberately. This approach serves a dual purpose: it highlights points that have already been articulated and reinforces them with established research findings. By referencing what has previously been stated and previous research, the Rationale demonstrates that it is evidence-based. This is done to clearly communicate that the reasoning presented is not speculative but is grounded in academic work. This approach also shifts the responsibility to those who disagree with the research cited. They are now tasked with providing their own research to challenge or counter the established findings, rather than simply expressing disagreement without supporting evidence.
