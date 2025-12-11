@@ -237,3 +237,6 @@ https://iohk.io/en/blog/posts/2021/03/04/not-long-till-d-0-day/
 * Last K study - IOHK - by Christina Ovezik & Aggelos Kiayias Posted 19 April, 2022
 https://blogs.ed.ac.uk/blockchain/2022/04/19/pool-splitting-behaviour-and-equilibrium-properties-in-cardano-rewards-scheme/
 
+* Analysis of Cardano’s incentive mechanism - Carlos Lopez de Lara - Input Output Engineering Last update: November 6, 2025
+https://github.com/input-output-hk/spo-incentives/blob/main/report.pdf
+
