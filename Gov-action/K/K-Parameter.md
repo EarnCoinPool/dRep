@@ -180,7 +180,7 @@ A common misconception is that the increasing K to 1,000 will lead to delegators
 [^19]: "Misconception: if K is raised to 1,000 pool rewards and SPO revenue will be cut in half" [https://incentives.solutions/misconception-if-k-is-raised-to-1-000-pool-rewards-and-spo-revenue-will-be-cut-in-half/](https://incentives.solutions/misconception-if-k-is-raised-to-1-000-pool-rewards-and-spo-revenue-will-be-cut-in-half/)
 
 #### Network Cost Argument:
-Some have argued there will be a network cost as some pools will split and spin up new pools. However, it's important to note that those who split pools and spin up more pools are subverting the K parameter which is meant to set a cap on the ADA staked to one entity. So having increased infrastructure cost to those who look to split could be seen as deterrent to subverting the K parameter.
+Some have argued there will be a network cost as some pools will split and spin up new pools. However, it's important to note that those who spin up more pools are subverting the K parameter which is meant to set a cap on the ADA staked to one entity. So having increased infrastructure cost to those who look to split could be seen as a deterrent to subverting the K parameter.
 
 #### Cost of ADA:
 The last time we adjusted K to 500 on December 6th 2020 the price of ADA was $0.15[^15] While the current cost as of 10/23/2025 is $0.64
