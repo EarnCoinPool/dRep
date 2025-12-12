@@ -13,7 +13,7 @@ This parameter governance action seeks to increase the K parameter (stakePoolTar
 [^1]:"stakePoolTargetNum (k parameter)" [https://docs.cardano.org/about-cardano/explore-more/parameter-guide](https://docs.cardano.org/about-cardano/explore-more/parameter-guide)
 
 ## Motivation 
-The K parameter has a pivotal role in tuning decentralization. Cardano experts consider the design premise of K sound, and the research that justifies it is well-understood and correct. "the increase of k does trigger a substantial increase in the Nakamoto coefficient, confirming that a change in k can aid in boosting the decentralisation of the system."[^12]
+The primary motivation is to increase decentralization. The K parameter has a pivotal role in tuning decentralization. Cardano experts consider the design premise of K sound, and the research that justifies it is well-understood and correct. "the increase of k does trigger a substantial increase in the Nakamoto coefficient, confirming that a change in k can aid in boosting the decentralisation of the system."[^12]
 
 [^12]: "the increase of k does trigger a substantial increase in the Nakamoto coefficient, confirming that a change in k can aid in boosting the decentralisation of the system." [https://blogs.ed.ac.uk/blockchain/2022/04/19/pool-splitting-behaviour-and-equilibrium-properties-in-cardano-rewards-scheme/](https://blogs.ed.ac.uk/blockchain/2022/04/19/pool-splitting-behaviour-and-equilibrium-properties-in-cardano-rewards-scheme/)
 
