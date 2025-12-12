@@ -34,7 +34,7 @@ https://github.com/input-output-hk/spo-incentives/blob/main/report.pdf
 ## Rationale
 > **Note:** The choice to incorporate quotations within the Governance Action and the Rationale section was made deliberately. This approach serves a dual purpose: it highlights points that have already been articulated and reinforces them with established research findings. By referencing what has previously been stated and previous research, the Rationale demonstrates that it is evidence-based. This is done to clearly communicate that the reasoning presented is not speculative but is grounded in academic work. This approach also shifts the responsibility to those who disagree with the research cited. They are now tasked with providing their own research to challenge or counter the established findings, rather than simply expressing disagreement without supporting evidence.
 
-The K parameter was already changed once from 150 to 500 in December of 2020. The same rationale and justification given then is the same for moving K to 1,000. As IOG stated when the decision was made to increase K from 150 to 500:
+The K parameter was already changed once from 150 to 500 in December of 2020 and the rationale now for moving K to 1,000 is similar. As IOG stated when the decision was made to increase K from 150 to 500:
 
 "Central to the health of Cardano as a vibrant proof-of-stake network is the manner in which delegators and stake operators are rewarded for running it, and how those rewards are shared to maximize decentralization and secure the network."[^5]
 
